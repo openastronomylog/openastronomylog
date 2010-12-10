@@ -1,0 +1,11 @@
+#summary Compliance Guidelines
+#labels Featured,Phase-Requirements
+
+Developers may display the *OpenAstronomyLog* logo to signify compliance with the standard if their product(s) meet the following criteria:
+
+ * Product can import and export an *`<OAL>`* document without errors that refers to the base schema. Product documentation must indicate which version of the base schema is supported.
+ * Product may or may not be able to import and export an extension of the base schema. To support an extension, product must be able to import and export the given extension. If an extension is implemented with omissions, the nonimplemented parts of the extension must be documented.
+ * Product documentation must indicate which version of the base schema and used extension schemas are supported.
+ * Although an *`<OAL>`* document may contain a list of observing targets without observations of these targets, a product is not required to support this usage to be in compliance with the standard.
+
+Developers are encouraged to refer to the standard in products and documentation as *OpenAstronomyLog* if space permits, or *`<OAL>`*. The logo itself can be downloaded from [http://code.google.com/p/openastronomylog/downloads/list/ Downloads] section in JPG format. A special thanks to Lambert Spix for designing the logo!
