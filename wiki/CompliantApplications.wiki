@@ -1,4 +1,5 @@
 #summary Applications currently supporting OAL.
+#labels Phase-Support,Featured
 
 ==Applications Supporting OpenAstronomyLog 2.0==
 (in alphabetical order)
