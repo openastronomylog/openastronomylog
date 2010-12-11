@@ -8,4 +8,4 @@ Developers may display the *OpenAstronomyLog* logo to signify compliance with th
  * Product documentation must indicate which version of the base schema and used extension schemas are supported.
  * Although an *`<OAL>`* document may contain a list of observing targets without observations of these targets, a product is not required to support this usage to be in compliance with the standard.
 
-Developers are encouraged to refer to the standard in products and documentation as *OpenAstronomyLog* if space permits, or *`<OAL>`*. The logo itself can be downloaded from [http://code.google.com/p/openastronomylog/downloads/list/ Downloads] section in JPG format. A special thanks to Lambert Spix for designing the logo!
+Developers are encouraged to refer to the standard in products and documentation as *OpenAstronomyLog* if space permits, or *`<OAL>`*. The logo itself can be downloaded from [http://code.google.com/p/openastronomylog/downloads/ Downloads] section in JPG format. A special thanks to Lambert Spix for designing the logo!
