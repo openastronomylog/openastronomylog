@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema targetNamespace="http://groups.google.com/group/openastronomylog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:oal="http://groups.google.com/group/openastronomylog" version="2.1">
+	<!-- 
+	    Schema for documentation and exchange of observations of astronomical objects. 
+		 Authors: Thomas Pfleger 
+		          Dirk Lehmann
+			      Phyllis Lang
+		 Revision date: 2011/08/08 (no changes in version 2.1)
+	     (c) 2005 - 2011 by Fachgruppe Computerastronomie of the Vereinigung der Sternfreunde e.V. (VdS) 
+	-->
+
+	<!-- Include the base elements -->
+	<xsd:include schemaLocation="oal_Base.xsd"/>
+
+	<!-- type hierarchy for objects of the solar system (sun, moon, planets, minor planets, comets) -->
+	<xsd:complexType name="SolarSystemTargetType" abstract="true">
+		<xsd:complexContent>
+			<xsd:extension base="oal:observationTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="CometTargetType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:SolarSystemTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="MinorPlanetTargetType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:SolarSystemTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name="MoonTargetType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:SolarSystemTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="PlanetTargetType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:SolarSystemTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:complexType name="SunTargetType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:SolarSystemTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+</xsd:schema>

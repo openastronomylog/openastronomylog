@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema targetNamespace="http://groups.google.com/group/openastronomylog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:oal="http://groups.google.com/group/openastronomylog" version="2.1">
+	<!-- 
+	    Schema for documentation and exchange of observations of astronomical objects. 
+		 Authors: Dirk Lehmann
+			  Phyllis Lang
+		 Revision date: 2011/08/08 (no changes in version 2.1)
+
+	     (c) 2005 - 2011 by Fachgruppe Computerastronomie of the Vereinigung der Sternfreunde e.V. (VdS) 
+	-->
+
+	<!-- Include the base elements -->
+	<xsd:include schemaLocation="oal_Base.xsd"/>
+
+	<!-- New in V2.0: type definition for a variable star -->
+	<xsd:complexType name="variableStarTargetType">
+	<!-- For compatibility reasons please use AAVSO Designation, the AAVSO Name, or the AAVSO Unique Identifier -->
+	<!-- in name element (derived from oal:observationTargetType). Otherwise a possible upload to the AAVSO might have problems -->
+		<xsd:complexContent>
+			<xsd:extension base="oal:starTargetType">
+				<xsd:sequence>
+					<!-- variable star type or subtype like Delta Cepheid, Mira, Eruptive, Semiregular, Supernovae, ... -->
+					<xsd:element name="type" type="xsd:string" minOccurs="0"/>									
+					<!-- maximal apparent magnitude. The derived apparentMag element from oal:starTargetType will be -->
+					<!-- used for minimal apparent magnitude -->
+					<xsd:element name="maxApparentMag" type="xsd:double" minOccurs="0"/>														
+					<!-- period of variable star (if any) in days -->
+					<xsd:element name="period" type="xsd:double" minOccurs="0"/>						
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- New in V2.0: type for variable star visual magnitude. -->
+    	<xsd:complexType name='variableStarVisMagType'>
+ 		<xsd:simpleContent>
+			<xsd:extension base='xsd:double'>
+				<!-- optional attribute if given visual magnitude is a fainter than value -->
+				<xsd:attribute name="fainterThan" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if given visual magnitude is uncertain -->
+				<xsd:attribute name="uncertain" type="xsd:boolean" use="optional"/>	
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+
+	<!-- New in V2.0: type for variable star chart identification -->
+	<xsd:complexType name="variableStarChartIDType">
+	 	<xsd:simpleContent>
+			<xsd:extension base='xsd:string'>
+				<!-- optional attribute if given chart is not an AAVSO chart -->
+				<xsd:attribute name="nonAAVSOchart" type="xsd:boolean" use="optional"/>
+			</xsd:extension>
+		</xsd:simpleContent>				
+	</xsd:complexType>
+
+	<!-- New in V2.0: type extension for visual variable star observations -->
+	<!-- Definition aligned and compatible with AAVSO visual format (see: http://www.aavso.org/observing/submit/visual.shtml) -->
+	<xsd:complexType name="findingsVariableStarType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:findingsType">
+				<xsd:sequence>				
+				    <!-- the observed visual magnitude of the variable star -->
+					<xsd:element name="visMag" type="oal:variableStarVisMagType"/>
+					<!-- the labels of the comparison stars used. Could be the magnitude label on the chart, or something else -->
+					<xsd:element name="comparisonStar" type="xsd:string" maxOccurs="unbounded"/>
+					<!-- some ID for chart identification. For AAVSO charts this is the latest date you see anywhere on the chart, entered as YYMMDD -->
+					<xsd:element name="chartID" type="oal:variableStarChartIDType"/>				
+				</xsd:sequence>
+				<!-- optional attribute if sky was bright due to moon, twilight, light pollution, etc. during observation -->
+				<xsd:attribute name="brightSky" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if coulds, haze, etc. were present during observation -->
+				<xsd:attribute name="clouds" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if seeing was poor during observation -->
+				<xsd:attribute name="poorSeeing" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if star was near the horizon, in trees or view was obstructed -->
+				<xsd:attribute name="nearHorizion" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if star showed unusual activities -->
+				<xsd:attribute name="unusualActivity" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if star showed an outburst -->
+				<xsd:attribute name="outburst" type="xsd:boolean" use="optional"/>					
+				<!-- optional attribute if there was an comparism sequence problem -->
+				<xsd:attribute name="comparismSequenceProblem" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if the star identification was uncertain -->
+				<xsd:attribute name="starIdentificationUncertain" type="xsd:boolean" use="optional"/>
+				<!-- optional attribute if the star very faint and hard to see -->
+				<xsd:attribute name="faintStar" type="xsd:boolean" use="optional"/>					
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+</xsd:schema>

@@ -1,0 +1,2299 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<oal:observations version="2.0" xmlns:oal="http://groups.google.com/group/openastronomylog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://groups.google.com/group/openastronomylog oal20.xsd">
+   <observers>
+      <observer id="usr_300132">
+         <name><![CDATA[Happy]]></name>
+         <surname><![CDATA[Observer]]></surname>
+         <contact><![CDATA[happy.observer@deepskylog.org]]></contact>
+		 <account name="www.deepskylog.org"><![CDATA[Happy Observer]]></account>
+		 <account name="MPC"><![CDATA[XY123]]></account>
+		 <fstOffset>0.15</fstOffset>
+      </observer>
+      <observer id="usr_300131">
+         <name><![CDATA[William]]></name>
+         <surname><![CDATA[Herschel]]></surname>
+      </observer>
+   </observers>
+   <sites>
+      <site id="site_300007">
+         <name><![CDATA[Nutscheid]]></name>
+         <longitude unit="deg">7.300000</longitude>
+         <latitude unit="deg">50.800000</latitude>
+		 <elevation>335</elevation>
+         <timezone>60</timezone>
+		 <code>53229</code>
+      </site>
+      <site id="site_300058">
+         <name><![CDATA[Emberger Alm]]></name>
+         <longitude unit="deg">13.150000</longitude>
+         <latitude unit="deg">46.750000</latitude>
+         <timezone>60</timezone>
+      </site>
+      <site id="site_302088">
+         <name><![CDATA[Hennef]]></name>
+         <longitude unit="deg">7.300000</longitude>
+         <latitude unit="deg">50.750000</latitude>
+         <timezone>60</timezone>
+      </site>
+   </sites>
+   <sessions>
+      <session id="se_300992" lang="de">
+         <begin>2006-07-18T21:50:00+01:00</begin>
+         <end>2006-07-19T01:15:00+01:00</end>
+         <site>site_300007</site>
+		 <coObserver>usr_300131</coObserver>
+         <weather><![CDATA[Tagsüber 34°C, nachts angenehme 22°C. Leichter Wind und trockene, saubere Luft.]]></weather>
+         <equipment><![CDATA[Lamberts 120/600 Refraktor zeigte einen herrlichen Nordamerika- und Pelikannebel mit UHC-Filter.]]></equipment>
+         <comments><![CDATA[Mitbeobachter: Kim und Robin Pfleger, Andreas Dumm, Lambert Spix, Jörg Ambrosi, Markus Bärenhäuser, Alexander Puchert.
+
+In der Milchstraße war der "Nördliche Kohlensack" zwischen Deneb und dem Cepheus sehr schön zu erkennen. Auch unten im Schützen noch schön deutliche Milchstraße. Die GG wurde mit dem SQM um etwa 23:00 MESZ zu 20,80 mag/arcsec^2 gemessen (entspricht fst=6,0). Eine Stunde später hätte es wegen tieferer Sonne zwar noch dunkler sein sollen, aber der bereits aufgegangene Mond (MA 23:38 MEZ) erhellte bereits den Himmel. Messwert dann war 20,70.
+
+Kim und Robin stellten selbständig ein paar Objekte mit dem ED80 ein (Mizar und Alkor, Albireo) und hatten eine Menge Spaß! Ich auch :-))]]></comments>
+      </session>
+      <session id="se_302129" lang="de">
+         <begin>2008-12-25T21:50:00+01:00</begin>
+         <end>2008-12-26T01:30:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Nach mehrtägig bedecktem Wetter klarte es am Nachmittag auf. Auf der Anfahrt ca. 3/8 Wolken, ich dachte schon das gibt nichts. Wolken lösten sich auf, Temperatur fiel im Laufe des Abends von 2°C auf -2°C. Anfangs starker Ostwind, der sich später beruhigte.]]></weather>
+         <equipment><![CDATA[Beobachtungsende als das Powerpack leer war.]]></equipment>
+         <comments><![CDATA[Mitbeobachter: Oliver Walgenbach mit 8" f/6 Galaxy Dobson. Dort u.a. gesehen: M 42, M 82, NGC 2264 (passend zu Weihnachten), Rosettennebel.
+
+
+
+Weitere beobachtete Objekte bei mir: M 46, M 47, M 37 (wunderschön), M 41 (im 8*42)]]></comments>
+      </session>
+      <session id="se_300157" lang="de">
+         <begin>2005-04-01T21:00:00+01:00</begin>
+         <end>2005-04-02T02:00:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Schon Tage vorher war absehbar, dass eine NO-Strömung klaren Himmel bringen würde. Dank trockener Festlandsluft relativ dunstfrei mit sehr geringer Extinktion :-)
+
+Grenzgrößenbestimmung im UMa (Zenit) ergab 6.2, jedoch war der Stern so deutlich bei direktem Sehen zu halten, dass ich die fst höher eingeschätzt habe. NGC 7000 war gegen Beobachtungsende hin deutlich erkennbar, was lt. DSR3 einer Grenzgröße von 6,5 mag entspricht.
+
+Im Verlauf der Nacht stieg die Milchstraße im Osten höher und zeigte Dunkelstrukturen, wie ich das hier zuhause vorher noch nie so schön gesehen habe :-)
+
+]]></weather>
+         <equipment><![CDATA[Das neue 16er Nagler hatte am 14,5" sein first light. Ein tolles Teil, das alle Erwartungen voll erfüllt. Das 13,8er ist damit überflüssig geworden.]]></equipment>
+         <comments><![CDATA[Erste Beobachtung zusammen mit Sternfreunden des Köln-Bonner Astrotreffs und gleich eine richtige star party.
+
+Ca. ein Dutzend Teilnehmer, die mir überwiegend noch namentlich unbekannt sind.
+
+Weiterhin wurden natürlich eine Menge Standardobjekte beobachtet (Virgohaufen, M104, M101, M13, Jupiter u.v.m.), die ich nicht mehr geloggt habe. Das Seeing war für Jupiter nicht berauschend. Ziemlich windig und gegen Ende der Sitzung war die Temperatur auf 1°C gefallen. Auf dem Heimweg zeigte das Autothermometer dann sogar -1°C an.
+
+Etwa um 22:17 UT war eine Formation von drei Satelliten zu sehen, die sehr langsam von NW kommend in die Zenitgegend zogen und dann im Erdschatten verschwanden. Eine Recherche auf Heavens Above zeigte, dass es sich dabei wahrscheinlich um NOSS 2-2 C...E handelte (maritime Aufklärungssatelliten zur Überwachung des Schiffsverkehrs).]]></comments>
+      </session>
+      <session id="se_301039" lang="de">
+         <begin>2006-07-25T00:10:00+01:00</begin>
+         <end>2006-07-25T03:15:00+01:00</end>
+         <site>site_300058</site>
+         <weather><![CDATA[Sehr feucht. Nachmittags und abends Regen und Gewitter, die in der Nähe herumziehen. Erst um 01:00 ist der Himmel frei, aber die tief südliche Milchstraße ist wegen der dortigen Wolken nicht sinnvoll beobachtbar.
+
+Bei Beobachtungsende starker Tau, 10°C.]]></weather>
+         <comments><![CDATA[Mitbeobachter: Paul Hombach.
+
+Himmelshelligkeit zu 21,45 gemessen.
+
+Entscheidung, die sehr kleinen PNs (0,2.. Bogenminuten) aus dem Beobachtungsvorhaben zu tilgen. Ist sehr mühsam mit der Identifikation und man erkennt keine Details. ]]></comments>
+      </session>
+      <session id="se_302100" lang="de">
+         <begin>2008-09-03T22:00:00+01:00</begin>
+         <end>2008-09-03T23:00:00+01:00</end>
+         <site>site_302088</site>
+         <weather><![CDATA[Nach Regen überraschend aufklarend, ca. 10°C.]]></weather>
+         <comments><![CDATA[Wollte schon ins Bett, als Jupiter lockte. Das Seeing über den Hausdächern an der Bonner Straße war wie erwartet mäßig. Daher noch eine kleine Deep Sky Safari mit dem 80er und dem Fujinon 8*42. Hat richtig Spaß gemacht!]]></comments>
+      </session>
+      <session id="se_301537" lang="de">
+         <begin>2008-08-30T21:00:00+01:00</begin>
+         <end>2008-08-31T01:40:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Nach vielen Tagen trüben und wolkigen Wetters und sehr mäßigen Temperaturen ist endlich der Sommer nochmal zurückgekommen. Kein Tau, aber doch noch Streuung an den Scheinwerferkegeln von Flugzeugen. Mittelstarke Extinktion, lausiges Seeing. Unangenehmer, im LAufe der Nacht an Stärke zunehmender Wind. SQM Meßwert von 20,60 anfangs auf 20,90 gegen Ende steigend.]]></weather>
+         <equipment><![CDATA[Nach langer Zeit habe ich den Astrocom-Filterschieber mal zum Einsatz gebracht. Wenn man ihn direkt (ohne 2"-Verlängerungshülse) anschließt, kommt man in den Fokus. Zum Blinken kleiner PNs scheint das durchaus praktisch zu sein!
+
+Abbruch der Beobachtung wegen leerem Powerpack fürs Notebook, aber zu der Zeit dachte ich wegen Müdigkeit sowieso ans Aufhören.]]></equipment>
+         <comments><![CDATA[Mitbeobachter: Swantje Peters, Patrick Cremer, Andreas Dumm. Der restliche KBA rafft sich nach dem Planetenseminar in der VSB nicht mehr auf oder muß irgendwo Geburtstage oder sonstwas feiern.]]></comments>
+      </session>
+      <session id="se_301328" lang="de">
+         <begin>2007-09-09T22:00:00+01:00</begin>
+         <end>2007-09-10T04:02:00+01:00</end>
+         <site>site_300058</site>
+         <weather><![CDATA[SQM-Messwert 21,55 um 00:00 MEZ]]></weather>
+      </session>
+      <session id="se_301359" lang="de">
+         <begin>2007-09-11T20:00:00+01:00</begin>
+         <end>2007-09-12T00:00:00+01:00</end>
+         <site>site_300058</site>
+         <weather><![CDATA[Gewitter über Italien, durchziehende Wolken.
+
+Um 00:00 MEZ zählen Guido und ich 25 Sterne im Pegasusviereck. SQM-Meßwert dazu: 21,46.]]></weather>
+      </session>
+      <session id="se_301377" lang="de">
+         <begin>2007-09-12T23:30:00+01:00</begin>
+         <end>2007-09-13T02:30:00+01:00</end>
+         <site>site_300058</site>
+         <weather><![CDATA[In der zweiten Nachthälfte starke Taubildung. Im Süden etwas Sichttrübung durch die viele Feuchtigkeit in der Luft. Prächtige abendliche Sommermilchstraße! Zum Morgen hin ein brillianter Winterhimmel, allerdings mit viel Szintillation. Temperatur bei Beobachtungsende 4°C. Beste Nacht der ganzen Kampagne!]]></weather>
+         <comments><![CDATA[Nach ausgiebiger Wanderung beschlossen wir, die zweite Nachthälfte zu beobachten. Da es allerdings in der Abenddämmerung ziemlich wolkenfrei war, haben wir zunächst noch einige Objekte der sommerlichen Milchstraße beobachtet. Einige Gäste bekommen "die üblichen Verdächtigen" gezeigt. Dafür habe ich kein Log geführt. Nach nettem Gespräch mit Jürgen Kallup eine Runde geschlafen.
+
+
+
+Um 03:00 MEZ SQM-Messwert 21.60 / 6,8 mag fst]]></comments>
+      </session>
+      <session id="se_301401" lang="de">
+         <begin>2007-09-13T22:40:00+01:00</begin>
+         <end>2007-09-14T01:30:00+01:00</end>
+         <site>site_300058</site>
+         <weather><![CDATA[Sehr starker Tau, der schließlich zum Abbruch der Beobachtung wegen beschlagenem Fangspiegel führt. In Horizontnähe sehr starke Extinktion, alles trieft vor Nässe.
+
+In der Morgendämmerung scheint die brilliant strahlende Venus auf Nebel im Tal.]]></weather>
+         <equipment><![CDATA[Wise man from India says: Astronomers this night definitely were fans of fans. Ich glaub', ich kriech'n Föhn!
+
+
+
+Jürgen Kallup hat ein stabilisiertes Bino von Frazer-Volpe dabei, sehr beeindruckend! Mit Gyro selbst im Zenit bombenstabiles Bild, auch beim Schwenken sehr angenehm, da kein Caterpillar-Effekt. Kostet ja nur schlappe 6000 Euro...]]></equipment>
+         <comments><![CDATA[Nach abendlicher Siesta versuchen wir unser Glück in der zweiten Nachthälfte. SQM-Meßwert: 21,40 -,5 mag.
+
+Nachdem der Fangspiegel zugetaut ist, setzen wir die Beobachtung in der Sattleggerschen Sternwarte am 12" Meade SC fort (Zeremonienmeister Jürgen Kallup).  Auch dort der Kampf von Föhn vs. Tau.]]></comments>
+      </session>
+      <session id="se_302179" lang="de">
+         <begin>2009-03-31T21:30:00+01:00</begin>
+         <end>2009-03-31T23:30:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[2°C, klar aber heller Mond
+
+Der SQM-Meßwert von anfangs 20,25 msa verbesserte sich später auf 20,42 msa. Ich habe dabei das SQM so gehalten, dass das Mondlicht nicht auf den Sensor fiel.]]></weather>
+         <comments><![CDATA[War alleine hier]]></comments>
+      </session>
+      <session id="se_302145" lang="de">
+         <begin>2008-12-26T21:00:00+01:00</begin>
+         <end>2008-12-26T23:30:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Mehr Dunst als gestern und kälter (-4°C). Weniger Wind. SQM-Meßwert anfangs 20.60, zum Ende 20.70.]]></weather>
+         <comments><![CDATA[Mitbeobachter: Oliver Walgenbach, Guido Kranz, Peter Baumgart]]></comments>
+      </session>
+      <session id="se_302167" lang="de">
+         <begin>2008-12-28T20:30:00+01:00</begin>
+         <end>2008-12-29T01:00:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Bei Beobachtungsende -5°C. Wenig Wind. Anfangs horizontnaher Dunst, etwa um 23:00 sogar Nebel (zu sehen, als Benedikt und drei Kölner Beobachter mit dem Auto den Berg rauf fuhren). Ab Mitternacht komplett klar, schöne Milchstraße und glitzernder Rauhreif.]]></weather>
+         <equipment><![CDATA[Erster Einsatz des neuen Asus Eee PC 1000H. Das Gerät bewährt sich hervorragend.]]></equipment>
+         <comments><![CDATA[Mitbeobachter: Peter Baumgart, Oliver Walgenbach, Swantje Peters, Benedikt Lorsbach & Co.]]></comments>
+      </session>
+      <session id="se_301202" lang="de">
+         <begin>2007-04-13T21:20:00+01:00</begin>
+         <end>2007-04-13T23:30:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Cirren, 2..4 Achtel :-(
+
+Um 23:54 MESZ zeigt das SQM 20,62 an -,9 mag]]></weather>
+         <comments><![CDATA[Mitbeobachter: Patrick Cremer
+
+Um 22:29 Überflug eines Satelliten mit ca. -1 mag.]]></comments>
+      </session>
+      <session id="se_301403" lang="de">
+         <begin>2007-10-05T20:00:00+01:00</begin>
+         <end>2007-10-05T22:15:00+01:00</end>
+         <site>site_300007</site>
+         <weather><![CDATA[Hohe Luftfeuchtigkeit, starker Tau. Extinktion zum Horizont hin sehr deutlich. SQM-Meßwert: 20,73.]]></weather>
+         <equipment><![CDATA[Mit ED80 und Dobson]]></equipment>
+         <comments><![CDATA[Mitbeobachter: Patrick Cremer, Kim Pfleger.
+
+Gedächtnisprotokoll, Zeiten nur ungefähr.]]></comments>
+      </session>
+   </sessions>
+   <targets>
+      <target id="_1008" xsi:type="oal:deepSkySC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M24]]></name>
+         <position><ra unit="rad">4.79441000</ra><dec unit="rad">-0.32375900</dec></position>
+         <constellation><![CDATA[Sgr]]></constellation>
+         <smallDiameter unit="arcmin">40.00</smallDiameter>
+         <largeDiameter unit="arcmin">120.00</largeDiameter>
+         <pa>45</pa>
+      </target>
+      <target id="_203354" xsi:type="oal:deepSkyAS">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M73]]></name>
+         <position><ra unit="rad">5.49313000</ra><dec unit="rad">-0.22052800</dec></position>
+         <constellation><![CDATA[Aqr]]></constellation>
+         <smallDiameter unit="arcmin">1.40</smallDiameter>
+         <largeDiameter unit="arcmin">1.40</largeDiameter>
+         <visMag>8.9</visMag>
+         <surfBr unit="mags-per-squarearcmin">9.4</surfBr>
+      </target>
+      <target id="_238876" xsi:type="oal:deepSkyAS">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[Kemble 1]]></name>
+         <alias><![CDATA[KEMBLE1]]></alias>
+         <position><ra unit="rad">1.03593000</ra><dec unit="rad">1.10081000</dec></position>
+         <constellation><![CDATA[Cam]]></constellation>
+         <notes><![CDATA[Kemble´s Cascade]]></notes>
+         <smallDiameter unit="arcmin">180.00</smallDiameter>
+         <largeDiameter unit="arcmin">180.00</largeDiameter>
+      </target>
+      <target id="_242862" xsi:type="oal:deepSkyCG">
+         <datasource>usr_300132</datasource>
+         <name><![CDATA[ABELL1656]]></name>
+         <position><ra unit="rad">3.40251938</ra><dec unit="rad">0.48834312</dec></position>
+         <constellation><![CDATA[Com]]></constellation>
+         <notes><![CDATA[mag_10: 13.5 mag, Distance: 68 Mpc]]></notes>
+         <smallDiameter unit="arcmin">157.20</smallDiameter>
+         <largeDiameter unit="arcmin">157.20</largeDiameter>
+         <mag10>13.5</mag10>
+      </target>
+      <target id="_220644" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD33]]></name>
+         <alias><![CDATA[Horsehead Nebula]]></alias>
+         <position><ra unit="rad">1.48745686</ra><dec unit="rad">-0.04305145</dec></position>
+         <constellation><![CDATA[Ori]]></constellation>
+         <smallDiameter unit="arcmin">4.00</smallDiameter>
+         <largeDiameter unit="arcmin">6.00</largeDiameter>
+         <opacity>4</opacity>
+      </target>
+      <target id="_220688" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD127]]></name>
+         <position><ra unit="rad">4.98116969</ra><dec unit="rad">-0.09541133</dec></position>
+         <constellation><![CDATA[Aql]]></constellation>
+         <smallDiameter unit="arcmin">4.50</smallDiameter>
+         <largeDiameter unit="arcmin">4.50</largeDiameter>
+         <opacity>5</opacity>
+      </target>
+      <target id="_220689" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD130]]></name>
+         <position><ra unit="rad">4.98247868</ra><dec unit="rad">-0.09715666</dec></position>
+         <constellation><![CDATA[Aql]]></constellation>
+         <smallDiameter unit="arcmin">7.00</smallDiameter>
+         <largeDiameter unit="arcmin">7.00</largeDiameter>
+         <opacity>5</opacity>
+      </target>
+      <target id="_220690" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD129]]></name>
+         <position><ra unit="rad">4.98335135</ra><dec unit="rad">-0.09279334</dec></position>
+         <constellation><![CDATA[Aql]]></constellation>
+         <smallDiameter unit="arcmin">5.00</smallDiameter>
+         <largeDiameter unit="arcmin">5.00</largeDiameter>
+         <opacity>5</opacity>
+      </target>
+      <target id="_220692" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD133]]></name>
+         <alias><![CDATA[LDN531]]></alias>
+         <position><ra unit="rad">5.00080464</ra><dec unit="rad">-0.11926417</dec></position>
+         <constellation><![CDATA[Aql]]></constellation>
+         <smallDiameter unit="arcmin">3.00</smallDiameter>
+         <largeDiameter unit="arcmin">10.00</largeDiameter>
+         <opacity>6</opacity>
+      </target>
+      <target id="_220699" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD142]]></name>
+         <position><ra unit="rad">5.15308462</ra><dec unit="rad">0.18355046</dec></position>
+         <constellation><![CDATA[Aql]]></constellation>
+         <smallDiameter unit="arcmin">40.00</smallDiameter>
+         <largeDiameter unit="arcmin">40.00</largeDiameter>
+         <opacity>6</opacity>
+      </target>
+      <target id="_220705" xsi:type="oal:deepSkyDN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[BARNARD168]]></name>
+         <position><ra unit="rad">5.73035227</ra><dec unit="rad">0.82379541</dec></position>
+         <constellation><![CDATA[Cyg]]></constellation>
+         <notes><![CDATA[Die "Dunkelzigarre", am östlichen Ende liegt der Cocoonnebel IC 5146]]></notes>
+         <smallDiameter unit="arcmin">10.00</smallDiameter>
+         <largeDiameter unit="arcmin">100.00</largeDiameter>
+         <opacity>4</opacity>
+      </target>
+      <target id="_213040" xsi:type="oal:deepSkyDS">
+         <datasource>usr_300132</datasource>
+         <name><![CDATA[ZETACNC]]></name>
+         <alias><![CDATA[ADS6650]]></alias><alias><![CDATA[STF1196]]></alias>
+         <position><ra unit="rad">2.14762764</ra><dec unit="rad">0.30805061</dec></position>
+         <constellation><![CDATA[Cnc]]></constellation>
+         <notes><![CDATA[ZETA CNC
+
+AC: 5.6mag / 6.3mag; 5.3" (PA=79°)
+
+BC: 6mag / 6.3mag; 5.6" (PA=79°)
+
+CD: 6.3mag / 10.5mag; 281" (PA=108°)]]></notes>
+         <visMag>5.6</visMag>
+         <separation unit="arcsec">5.30</separation>
+         <pa>79</pa>
+         <magComp>6.3</magComp>
+      </target>
+      <target id="_239930" xsi:type="oal:deepSkyDS">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M40]]></name>
+         <alias><![CDATA[WN4]]></alias>
+         <position><ra unit="rad">3.23933109</ra><dec unit="rad">1.01374541</dec></position>
+         <constellation><![CDATA[UMa]]></constellation>
+         <visMag>9.0</visMag>
+         <separation unit="arcsec">53.00</separation>
+         <pa>88</pa>
+         <magComp>9.3</magComp>
+      </target>
+      <target id="_202877" xsi:type="oal:deepSkyGC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6440]]></name>
+         <position><ra unit="rad">4.66385000</ra><dec unit="rad">-0.35533000</dec></position>
+         <constellation><![CDATA[Sgr]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (7/14/99): this globular forms an unusual pair with planetary N6445 just 
+21' NNE and is situated within a string of four mag 11-12 stars oriented NW-SE. 
+It appears fairly faint, round, at least 2' diameter. At 280x the diffuse halo 
+increases to a moderately bright, round core. Although the globular appears 
+granular, there was no resolution is good seeing except for a very faint star 
+which was intermittently visible off the north edge of the core.
+13" (6/29/84): moderately bright, small, broadly concentrated to a brighter 
+core, no resolution. Forms a striking pair with planetary N6445 20' NNE. 
+Brightest member stars are only V =17.
+]]></notes>
+         <smallDiameter unit="arcmin">4.40</smallDiameter>
+         <largeDiameter unit="arcmin">4.40</largeDiameter>
+         <visMag>9.3</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.3</surfBr>
+      </target>
+      <target id="_202969" xsi:type="oal:deepSkyGC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6544]]></name>
+         <position><ra unit="rad">4.74443000</ra><dec unit="rad">-0.43627800</dec></position>
+         <constellation><![CDATA[Sgr]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (5/10/91): bright, 4'x3', elongated NW-SE, irregular and scraggly outline, 
+mottled. Located in a rich star field. About six stars are superimposed 
+including two or three mag 13 stars in a tight knot near the center. Several 
+faint stars are resolved at the edges and nearby field stars. A double star with 
+components mag 11.5/13.5 lies 2' SW. 
+8" (8/23/84): at 200x, appears moderately bright with two stars are visible at 
+the center and two or three stars are resolved at edges and the appearance is 
+grainy with a brighter corre
+8" (7/31/81): fairly faint, small, brighter core, easy but no resolution.
+]]></notes>
+         <smallDiameter unit="arcmin">9.20</smallDiameter>
+         <largeDiameter unit="arcmin">9.20</largeDiameter>
+         <visMag>7.5</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.1</surfBr>
+      </target>
+      <target id="_202977" xsi:type="oal:deepSkyGC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6553]]></name>
+         <position><ra unit="rad">4.75278000</ra><dec unit="rad">-0.45216600</dec></position>
+         <constellation><![CDATA[Sgr]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (6/6/86): grainy, mottled globular with a single bright star at the N edge 
+and four or five additional stars at the edges may also be resolved members. 
+Located in a rich field. Brightest member star V =14.7.
+8" (7/31/81): fairly bright, moderately large. A single star is at the N edge, 
+elongated or fan-shaped N-S, no resolution.
+]]></notes>
+         <smallDiameter unit="arcmin">9.20</smallDiameter>
+         <largeDiameter unit="arcmin">9.20</largeDiameter>
+         <visMag>8.3</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.9</surfBr>
+      </target>
+      <target id="_203052" xsi:type="oal:deepSkyGC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6642]]></name>
+         <position><ra unit="rad">4.85159000</ra><dec unit="rad">-0.40973200</dec></position>
+         <constellation><![CDATA[Sgr]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (7/14/07): at 393x appears as a fairly small but fairly bright globular with 
+a very bright 30" core and 2' halo. The small core is very mottled and partially 
+resolved into 2 or 3 clumps. Roughly 15-20 mag 14.5-16 stars are just visible in 
+the halo including a very close pair on the NNE edge. Located just 1.1 degrees 
+NW of M22.
+17.5" (5/10/91): fairly bright, fairly small, round, 2' diameter, bright core 
+seems slightly offset. Half a dozen mag 14-15 stars are resolved in the mottled 
+halo. A mag 11 field star 2.2' NW and a mag 13.5 star 1.5' NW of center are 
+collinear with the core. Located in a field rich in faint stars. 
+8" (6/19/82): fairly bright, small, bright core, fainter halo, no resolution.
+]]></notes>
+         <smallDiameter unit="arcmin">5.80</smallDiameter>
+         <largeDiameter unit="arcmin">5.80</largeDiameter>
+         <visMag>8.9</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.4</surfBr>
+      </target>
+      <target id="_203064" xsi:type="oal:deepSkyGC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M22]]></name>
+         <alias><![CDATA[NGC6656]]></alias>
+         <position><ra unit="rad">4.87122000</ra><dec unit="rad">-0.41718300</dec></position>
+         <constellation><![CDATA[Sgr]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (8/4/94): at 220x appears 10' diameter although outliers may significantly 
+increase the total diameter. The very bright core is irregularly round and 
+3.5'-4' diameter but not concentrated to the center. M22 is extensively resolved 
+to the center and there is no distinct nucleus. At the NE edge of the core is 
+rich small clump with 8-10 stars that collectively stands out well and an easy 
+bright pair is at the SE edge of the core. The very irregular halo appears more 
+extensive on the NE side and appears elongated SW-NE. Dark lanes appear to 
+intrude into the cluster and involve the surrounding region though this may be 
+an optical effect. This is the third brightest globular in integrated magnitude 
+(V = 5.2) and a difficult naked-eye object in a dark sky (fairly easy from 
+Australia, but not as obvious as I would have expected).
+8": very bright, very large, extremely rich. A few hundred mag 11-13 stars are 
+resolved and appears highly resolved down to the core. A bright clump is visible 
+in the NE section of the core. Varying magnitudes to the cluster members. M22 is 
+the second best globular for viewing from Northern California (next to M13, 
+although has brighter members).
+]]></notes>
+         <smallDiameter unit="arcmin">32.00</smallDiameter>
+         <largeDiameter unit="arcmin">32.00</largeDiameter>
+         <visMag>5.2</visMag>
+         <surfBr unit="mags-per-squarearcsec">21.4</surfBr>
+      </target>
+      <target id="_198358" xsi:type="oal:deepSkyGN">
+         <datasource>usr_300131</datasource>
+         <name><![CDATA[M1]]></name>
+         <alias><![CDATA[CED53]]></alias><alias><![CDATA[CRABNEBULA]]></alias><alias><![CDATA[LBN833]]></alias><alias><![CDATA[NGC1952]]></alias><alias><![CDATA[SH2-244]]></alias><alias><![CDATA[TAURUS_A]]></alias>
+         <position><ra unit="rad">1.45966976</ra><dec unit="rad">0.38422454</dec></position>
+         <constellation><![CDATA[Tau]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (2/23/06): at 225x the shape was quite elongated and irregular and the 
+interior had a turbulent appearance due to a very irregular surface brightness. 
+The periphery has a tattered or ragged edge and changes shape somewhat with 
+averted vision. With a UHC filter, there is a brighter knot (sometimes appears 
+as an extended, elongated feature) near the SW edge. Easily visible as a faint, 
+oval patch in 15x50 IS binoculars.
+17.5" (2/8/86): very bright, unusual potato shape with an irregular surface 
+brightness, 6'x4', broad concentration towards center. Very irregular elongated 
+shape with extensions or "arms" towards the NW and SE, ragged edges at 
+periphery. A large dark indentation or "bay" intrudes on the NE side of the SE 
+extension, so this end is thinner and less prominent. A few faint stars are 
+superimposed. Using an OIII filter, the overall structure is muted but a bright 
+inner streak is visible in the SW quadrant (oriented ~E-W) and this streak is 
+not noticeable without the filter. 
+13.1" (1/18/85): large, bright, irregular potato shape, large indentation on 
+following end. Easy in 16x80 finder.
+8" (10/4/80): moderately bright, irregular shape, fairly large, indentation on 
+the NW and SE ends.
+]]></notes>
+         <smallDiameter unit="arcmin">4.00</smallDiameter>
+         <largeDiameter unit="arcmin">8.00</largeDiameter>
+         <visMag>8.4</visMag>
+         <surfBr unit="mags-per-squarearcmin">11.9</surfBr>
+         <nebulaType><![CDATA[SNR]]></nebulaType>
+      </target>
+      <target id="_198382" xsi:type="oal:deepSkyGN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M42]]></name>
+         <alias><![CDATA[LBN974]]></alias><alias><![CDATA[NGC1976]]></alias><alias><![CDATA[ORION_NEBULA]]></alias>
+         <position><ra unit="rad">1.46283317</ra><dec unit="rad">-0.09407809</dec></position>
+         <constellation><![CDATA[Ori]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (10/12/85): best emission nebula in northern sky, fantastic view under all 
+conditions, bright colored wings sweep to the east and south. The remarkable 
+structure is difficult to describe but includes bays, filaments, knots, nebulous 
+stars and a huge outer loop. Definite colors are visible including pale greens 
+and pinks. Highlighted by the Trapezium which contains six stars and appears to 
+reside in a darker hollow. The bright portion surrounding Theta probably has the 
+highest surface brightness of any HII region in the sky with an "electric" 
+appearance. Dark streaks and a dark wedge = "fish's mouth" intrudes on the NE 
+side. Using an H-Beta filter, the nebulosity significantly dims in general but 
+there is one outer wing or loop on the W side (oriented N-S) which obviously 
+increases in contrast with the filter!
+]]></notes>
+         <smallDiameter unit="arcmin">60.00</smallDiameter>
+         <largeDiameter unit="arcmin">90.00</largeDiameter>
+         <visMag>4.0</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.1</surfBr>
+         <nebulaType><![CDATA[EN+RN]]></nebulaType>
+      </target>
+      <target id="_208672" xsi:type="oal:deepSkyGN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC1499]]></name>
+         <alias><![CDATA[LBN756]]></alias>
+         <position><ra unit="rad">1.06131000</ra><dec unit="rad">0.63471800</dec></position>
+         <constellation><![CDATA[Per]]></constellation>
+         <notes><![CDATA[California nebula
+
+Notes by Steve Gottlieb:
+17.5" (1/16/02): Despite its reputation as a challenging target, this was an 
+easy, fascinating object at 64x with a H-beta filter. The California Nebula is 
+HUGE and extended a full two eyepiece fields even using a 31 Nagler for a total 
+length of over 2.5 degrees and with a varying width of 15'-30', extended 
+WNW-ESE. The E-W border is well-defined with a filter, particularly in the 
+general vicinity of Xi Persei (middle of three naked-eye stars in the leg of 
+Perseus collinear with the Pleiades) on the southern border and a long straight 
+stretch on the northern edge. Along the northern edge, there is some 
+filamentary, wispy structure similar to the view of the Veil nebula in a small 
+scope!
+The nebulosity is weaker and more disorganized, though, close to the preceding 
+and following ends. The nebula tapers towards the eastern end where there are 
+some additional brighter streaks and dark intrusions near a group of stars. 
+Portions of the central region are clearly fainter with no evident structure. At 
+the west end the structure is also chaotic with an irregular mix of weak 
+nebulosity and darker voids. There is much to view here even at 64x, and I spent 
+30 minutes scanning the entire length for structure. 
+17.5" (10/28/89): the California Nebula requires very low power and visibility 
+is best using an H-beta filter. At 82x appears very large, faint, very 
+elongated, irregular low surface brightness with darker lanes and some wispy 
+structure along the edges. The most well-defined section of the border is near a 
+mag 8.5 star bordering the southern edge. Located roughly 30' N of mag 4.0 Xi 
+Persei.
+13.1" (1/18/85): definite contrast gain with H-beta filter as only the section 
+NW of Xi was definite using a Daystar 300 filter (siimlar to UHC), but the 
+H-beta shows the full extent easily.
+16x80mm (7/27/84): very large and faint, very elongated WNW-ESE, sharper and 
+brighter on WNW edge, very low surface brightness. Improved contrast with an 
+H-beta filter.
+]]></notes>
+         <smallDiameter unit="arcmin">40.00</smallDiameter>
+         <largeDiameter unit="arcmin">160.00</largeDiameter>
+      </target>
+      <target id="_208889" xsi:type="oal:deepSkyGN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6888]]></name>
+         <alias><![CDATA[LBN203]]></alias><alias><![CDATA[SH2-105]]></alias>
+         <position><ra unit="rad">5.28882000</ra><dec unit="rad">0.66942100</dec></position>
+         <constellation><![CDATA[Cyg]]></constellation>
+         <notes><![CDATA[Crescent nebula
+
+Notes by Steve Gottlieb:
+18" (8/23/03): Using a 6-inch off-axis mask with a 31 Nagler (73x) and an OIII 
+filter, a faint curving arc is visible which begins SW of the mag 7.2 star on 
+the north edge and curves around to the mag 8.2 star on the NE side, extending 
+nearly 90¡ of along the annulus of the Crescent Nebula. No other nebulosity was 
+visible.
+17.5" (6/29/00): Stunning view at 100x (20mm Nagler) using an OIII filter. The 
+outline appears as a huge, irregular cosmic egg, ~18'x11', floating in a very 
+rich Cygnus star field. The complete annulus is easily visible. The brightest 
+section is along the north side and passes through a mag 7.2 star at the north 
+edge. This piece displays much structure with several knots and wispy tendrils. 
+An isolated bright knot is within the weakly glowing interior which has an 
+irregular surface brightness and is on a line with the mag 7.2 star and the mag 
+7.4 central star. There are interior wispy striations which appear to radiate 
+from the central star towards the NW rim at the end of the bright arc. The rim 
+is widest on the SW end with more nebulosity filling in towards the center. The 
+fine texture and structure of the nebulosity creates a 3-dimensional feel and an 
+"electric" effect.
+17.5" (7/5/86): the "Crescent Nebula" is one of my favorite large nebulosities 
+at 100x with a OIII filter (excellent contrast gain). Appears as a bright, 
+16'x11' oval or egg-shaped annulus elongated SW-NE. The rim is virtually 
+complete except for a small piece of the east side and exhibits a great deal of 
+turbulent, wispy structure. Brightest just SW of mag 7.2 SAO 69597 (unequal pair 
+O· 401 = 7.2/10.5 at 14") which is embedded in the rim at the north end. The 
+nebula also passes through mag 8.2 SAO 69611 on the NE side. Just north of 
+center in the interior is the mag 7.4 Wolf-Rayet star HD 192163 = WR 136, whose 
+strong stellar wind created this shocked ring-type nebula. This is beautiful 
+nebulosity set in a very rich Milky Way field.
+13" (9/11/82): bright, large, oval shell, nearly complete loop visible with UHC, 
+striking unusual appearance! 
+8" (8/9/80): faint, elongated arc of nebulosity connecting two mag 7.5/8.5 stars 
+and extending SW of the brighter star. Set in a very rich star field. Only the 
+brightest portion at the north end of the nebula is visible.
+]]></notes>
+         <smallDiameter unit="arcmin">13.00</smallDiameter>
+         <largeDiameter unit="arcmin">18.00</largeDiameter>
+      </target>
+      <target id="_208922" xsi:type="oal:deepSkyGN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6992]]></name>
+         <alias><![CDATA[CED182B]]></alias>
+         <position><ra unit="rad">5.48164000</ra><dec unit="rad">0.55399700</dec></position>
+         <constellation><![CDATA[Cyg]]></constellation>
+         <notes><![CDATA[Veil nebula
+
+Notes by Steve Gottlieb:
+17.5" (7/5/86): this section of the Veil nebula is probably the most detailed 
+and exciting emission object to explore in the 17.5" using a 20mm Nagler and 
+OIII filter. Appears very bright, extremely large, very elongated, about 1¡ 
+length, crossed by darker rifts. Feather-like side branches are at the south 
+edge running off towards the west. Breathtaking filamentary detail at 83x too 
+intricate to describe using an OIII filter particularly on the southern half! 
+The filaments appear like intertwined threads or twisted ropes giving a striking 
+3-dimensional appearance along the length! Attached to N6995 and IC 1340 to the 
+south.
+13" (5/21/82): incredibly detailed at the S edge. Wispy structure with two long 
+tails. Darker rifts and filamentary structure along the entire length.
+8": bright at 50x with UHC filter. Some structure seen with darker rifts and 
+branches at the S edge.
+]]></notes>
+         <smallDiameter unit="arcmin">8.00</smallDiameter>
+         <largeDiameter unit="arcmin">60.00</largeDiameter>
+      </target>
+      <target id="_199044" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2683]]></name>
+         <alias><![CDATA[KUG0849+336]]></alias><alias><![CDATA[MCG6-20-11]]></alias><alias><![CDATA[PGC24930]]></alias><alias><![CDATA[UGC4641]]></alias><alias><![CDATA[ZWG180.17]]></alias>
+         <position><ra unit="rad">2.32429000</ra><dec unit="rad">0.58328900</dec></position>
+         <constellation><![CDATA[Lyn]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+13.1" (1/18/85): very bright, very large, nearly edge-on 4:1 SW-NE, 8.0'x2.0', 
+halo is broadly concentrated. Mottled or dusty near the core but no distinct 
+nucleus.
+16x80 (1/18/85): visible in finder as a faint, edge-on steak
+13.1" (2/25/84): bright and impressive, brigter core, thin fainter extensions 
+oriented SW-NE.
+]]></notes>
+         <smallDiameter unit="arcmin">2.10</smallDiameter>
+         <largeDiameter unit="arcmin">9.30</largeDiameter>
+         <visMag>9.7</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.7</surfBr>
+         <hubbleType><![CDATA[Sb]]></hubbleType>
+         <pa>44</pa>
+      </target>
+      <target id="_199046" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2685]]></name>
+         <alias><![CDATA[ARP336]]></alias><alias><![CDATA[IRAS08517+5855]]></alias><alias><![CDATA[MCG10-13-39]]></alias><alias><![CDATA[PGC25065]]></alias><alias><![CDATA[PRCA-3]]></alias><alias><![CDATA[UGC4666]]></alias><alias><![CDATA[ZWG288.12]]></alias>
+         <position><ra unit="rad">2.33692000</ra><dec unit="rad">1.02511000</dec></position>
+         <constellation><![CDATA[UMa]]></constellation>
+         <notes><![CDATA[Helix galaxy
+
+Notes by Steve Gottlieb:
+13.1" (1/18/85): moderately bright, fairly small edge-on 4:1 SW-NE. Contains an 
+elongated bright core. A mag 11 star is 2.4' N of center.
+]]></notes>
+         <smallDiameter unit="arcmin">2.50</smallDiameter>
+         <largeDiameter unit="arcmin">4.60</largeDiameter>
+         <visMag>11.2</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.6</surfBr>
+         <hubbleType><![CDATA[SB0-a]]></hubbleType>
+         <pa>38</pa>
+      </target>
+      <target id="_199198" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2832]]></name>
+         <alias><![CDATA[MCG6-21-15]]></alias><alias><![CDATA[PGC26377]]></alias>
+         <position><ra unit="rad">2.44250000</ra><dec unit="rad">0.58904400</dec></position>
+         <constellation><![CDATA[Lyn]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (1/31/87): moderately bright, fairly small, round bright core, slightly 
+elongated halo. This is the brightest galaxy in Abell Galaxy Cluster 779 and 
+forms a double system with N2831 at the SW edge of halo 22" between centers. 
+Also nearby is N2830 1.3' SW. A double star h2493 = 10.1/11.7 is 2.5' SSE and a 
+wide mag 11/12.5 pair is 3.0' ESE.
+13" (1/28/84): fairly faint, fairly small, round. This object is the central 
+galaxy in Abell Galaxy Cluster 779.
+]]></notes>
+         <smallDiameter unit="arcmin">2.00</smallDiameter>
+         <largeDiameter unit="arcmin">3.00</largeDiameter>
+         <visMag>11.8</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.5</surfBr>
+         <hubbleType><![CDATA[E2]]></hubbleType>
+         <pa>160</pa>
+      </target>
+      <target id="_199206" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2841]]></name>
+         <alias><![CDATA[KARA324]]></alias><alias><![CDATA[MCG9-16-5]]></alias><alias><![CDATA[PGC26512]]></alias><alias><![CDATA[UGC4966]]></alias><alias><![CDATA[ZWG265.6]]></alias>
+         <position><ra unit="rad">2.45235000</ra><dec unit="rad">0.88970600</dec></position>
+         <constellation><![CDATA[UMa]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+13.1" (1/18/85): bright, large, very small very bright nucleus, elongated 2:1 
+NW-SE, 6'x3'. There is a sharp light cut-off on the E side due to dust. A mag 10 
+star is at the NW edge 2.8' from center and mag 8.6 SAO 27227 lies 4.8' NE.
+]]></notes>
+         <smallDiameter unit="arcmin">3.50</smallDiameter>
+         <largeDiameter unit="arcmin">8.10</largeDiameter>
+         <visMag>9.3</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.7</surfBr>
+         <hubbleType><![CDATA[Sb]]></hubbleType>
+         <pa>147</pa>
+      </target>
+      <target id="_199259" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2903]]></name>
+         <alias><![CDATA[KARA347]]></alias><alias><![CDATA[MCG4-23-9]]></alias><alias><![CDATA[PGC27077]]></alias><alias><![CDATA[UGC5079]]></alias><alias><![CDATA[ZWG122.14]]></alias>
+         <position><ra unit="rad">2.49653000</ra><dec unit="rad">0.37523100</dec></position>
+         <constellation><![CDATA[Leo]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (1/31/87): this is one of the brightest non-Messier galaxies. Very bright 
+and large, elongated 5:2 SSW-NNE, 10'x4'. A very faint knot is involved on the 
+NNE side 1.2' from center = NGC 2905. An extremely faint knot is also 
+symmetrically placed opposite the core on the SW end 1.2' from center. The 
+galaxy has a dusty, mottled appearance with knots and arcs easily visible with 
+averted vision.
+17.5" (3/23/85): a second knotty region is definitely visible on the SW edge. 
+Lord Rosse mentions these two knots as "thickened regions".
+13.1" (12/22/84): very bright, elongated bright core. Contains a very faint knot 
+at the north end = NGC 2905. 
+8": bright, large, elongated, bright mottled core.
+]]></notes>
+         <smallDiameter unit="arcmin">6.00</smallDiameter>
+         <largeDiameter unit="arcmin">12.60</largeDiameter>
+         <visMag>8.8</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.2</surfBr>
+         <hubbleType><![CDATA[SBbc]]></hubbleType>
+         <pa>17</pa>
+      </target>
+      <target id="_199532" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC3184]]></name>
+         <alias><![CDATA[KUG1015+416]]></alias><alias><![CDATA[MCG7-21-37]]></alias><alias><![CDATA[PGC30087]]></alias><alias><![CDATA[UGC5557]]></alias><alias><![CDATA[ZWG211.38]]></alias>
+         <position><ra unit="rad">2.69777000</ra><dec unit="rad">0.72297400</dec></position>
+         <constellation><![CDATA[UMa]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (4/4/92): fairly bright, large, slightly elongated ~N-S, large 4' halo has 
+a fairly low surface brightness, very weak concentration, small brighter 
+elongated core. A mag 11.5 star is at the N edge of the halo 1.8' from the 
+center. There is an impression of spiral structure but it is not distinct. 
+Located 40' W of Mu Ursa Majoris (V = 3.1).
+]]></notes>
+         <smallDiameter unit="arcmin">6.90</smallDiameter>
+         <largeDiameter unit="arcmin">7.40</largeDiameter>
+         <visMag>9.6</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.6</surfBr>
+         <hubbleType><![CDATA[SBc]]></hubbleType>
+         <pa>135</pa>
+      </target>
+      <target id="_199571" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC3226]]></name>
+         <alias><![CDATA[ARP94]]></alias><alias><![CDATA[KCPG234A]]></alias><alias><![CDATA[MCG3-27-15]]></alias><alias><![CDATA[PGC30440]]></alias><alias><![CDATA[UGC5617]]></alias><alias><![CDATA[ZWG94.26]]></alias>
+         <position><ra unit="rad">2.72031000</ra><dec unit="rad">0.34727700</dec></position>
+         <constellation><![CDATA[Leo]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (4/25/92): moderately bright and large, slightly elongated SSW-NNE, 
+smoothly increases from halo to a bright core and an almost stellar nucleus. The 
+halo extends to almost 2' diameter with averted vision and fades into 
+background. Forms a striking pair with N3227 at the south side with 2.3' 
+separation between centers. The outer halo is just in contact with N3227 at the 
+SSE edge. N3222 lies 13' W.
+13.1" (4/16/83): fairly faint, broad concentration to a brighter middle.
+]]></notes>
+         <smallDiameter unit="arcmin">2.00</smallDiameter>
+         <largeDiameter unit="arcmin">2.80</largeDiameter>
+         <visMag>11.4</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.0</surfBr>
+         <hubbleType><![CDATA[E2]]></hubbleType>
+         <pa>29</pa>
+      </target>
+      <target id="_199572" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC3227]]></name>
+         <alias><![CDATA[IRAS10207+2007]]></alias><alias><![CDATA[KCPG234B]]></alias><alias><![CDATA[MCG3-27-16]]></alias><alias><![CDATA[PGC30445]]></alias><alias><![CDATA[UGC5620]]></alias><alias><![CDATA[ZWG94.28]]></alias>
+         <position><ra unit="rad">2.72056000</ra><dec unit="rad">0.34671500</dec></position>
+         <constellation><![CDATA[Leo]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (4/25/92): fairly bright, fairly bright, elongated 5:2 NW-SE, 2.5'x1.0', 
+prominent very small high surface brightness core, striking stellar nucleus. 
+Just in contact with N3226 at the NW tip 2.3' separation between cores. 
+Brightest of three with N3222 13' W.
+13.1" (4/16/83): fairly bright, elongated, bright core, stellar nucleus. Forms a 
+contact system with N3226 2' NNW.
+]]></notes>
+         <smallDiameter unit="arcmin">3.90</smallDiameter>
+         <largeDiameter unit="arcmin">4.10</largeDiameter>
+         <visMag>10.4</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.2</surfBr>
+         <hubbleType><![CDATA[SBa]]></hubbleType>
+         <pa>150</pa>
+      </target>
+      <target id="_199708" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC3344]]></name>
+         <alias><![CDATA[IRAS10407+2511]]></alias><alias><![CDATA[KARA435]]></alias><alias><![CDATA[MCG4-25-46]]></alias><alias><![CDATA[PGC31968]]></alias><alias><![CDATA[UGC5840]]></alias><alias><![CDATA[WAS14]]></alias><alias><![CDATA[ZWG124.60]]></alias>
+         <position><ra unit="rad">2.80786000</ra><dec unit="rad">0.43498500</dec></position>
+         <constellation><![CDATA[LMi]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (1/19/91): fairly bright, large, about 4'x3' extended ~E-W. Unusual 
+appearance as two bright stars are involved on the E side. Sharp concentration 
+with a faint outer halo and a well-defined much brighter core. A mag 10.5 star 
+is on the E side 52" from the center and a mag 10 star is at the E edge of the 
+halo 1.6' from the center. Also a mag 13.5 star is superimposed about 30" SE of 
+the core.
+8" (3/28/81): faint, large, low surface brightess. Two mag 10 stars are at the E 
+edge.
+]]></notes>
+         <smallDiameter unit="arcmin">6.50</smallDiameter>
+         <largeDiameter unit="arcmin">7.10</largeDiameter>
+         <visMag>9.7</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.6</surfBr>
+         <hubbleType><![CDATA[SBbc]]></hubbleType>
+         <pa>18</pa>
+      </target>
+      <target id="_200000" xsi:type="oal:deepSkyGX">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC3631]]></name>
+         <alias><![CDATA[ARP27]]></alias><alias><![CDATA[IRAS11181+5326]]></alias><alias><![CDATA[MCG9-19-47]]></alias><alias><![CDATA[PGC34767]]></alias><alias><![CDATA[UGC6360]]></alias><alias><![CDATA[VV363]]></alias><alias><![CDATA[ZWG268.21]]></alias>
+         <position><ra unit="rad">2.97162000</ra><dec unit="rad">0.92798700</dec></position>
+         <constellation><![CDATA[UMa]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (4/1/95): bright, large, round, 3.5' diameter. Sharp concentration with a 
+prominent core which brightens to a nearly stellar nucleus. The outer halo fades 
+into the background and shows a hint of spiral arms. Two mag 12-13 stars are 
+3.4' NE and 3.3' WNW of center.
+]]></notes>
+         <smallDiameter unit="arcmin">3.70</smallDiameter>
+         <largeDiameter unit="arcmin">5.00</largeDiameter>
+         <visMag>10.1</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.0</surfBr>
+         <hubbleType><![CDATA[Sc]]></hubbleType>
+         <pa>114</pa>
+      </target>
+      <target id="_198081" xsi:type="oal:deepSkyOC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC1664]]></name>
+         <alias><![CDATA[OCL411]]></alias>
+         <position><ra unit="rad">1.27012000</ra><dec unit="rad">0.76229200</dec></position>
+         <constellation><![CDATA[Aur]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+13.1" (1/18/85): 40-45 stars, striking, rich, many faint double stars and 
+chains. A long string of stars to the S leads to mag 7.5 SAO 39807 on the SE 
+edge. Appears rich in the center.
+]]></notes>
+         <smallDiameter unit="arcmin">18.00</smallDiameter>
+         <largeDiameter unit="arcmin">18.00</largeDiameter>
+         <visMag>7.6</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.6</surfBr>
+         <class><![CDATA[III1p]]></class>
+      </target>
+      <target id="_198190" xsi:type="oal:deepSkyOC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC1778]]></name>
+         <alias><![CDATA[OCL429]]></alias>
+         <position><ra unit="rad">1.34427000</ra><dec unit="rad">0.64617900</dec></position>
+         <constellation><![CDATA[Aur]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (2/1/92): about 50 stars mag 10-15 in a 15' field. Most stars are arranged 
+in two rows oriented NW-SE with a dark lane between. Fairly scattered overall, 
+includes several double stars. There is a nice double star 10/10 at 15" with two 
+mag 13 stars near and 4' SE is a close striking double star h3266 = 9.9/11.1 at 
+8". A fairly rich clump is at the SE end of cluster.
+8": 20 stars mag 10 and fainter in a 6' field, small, elongated NW-SE, nice 
+double star 10/10. Includes a string of mag 10-11 star to the N.
+]]></notes>
+         <smallDiameter unit="arcmin">8.00</smallDiameter>
+         <largeDiameter unit="arcmin">8.00</largeDiameter>
+         <visMag>7.7</visMag>
+         <surfBr unit="mags-per-squarearcmin">11.9</surfBr>
+         <class><![CDATA[III2p]]></class>
+      </target>
+      <target id="_198494" xsi:type="oal:deepSkyOC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M37]]></name>
+         <alias><![CDATA[NGC2099]]></alias><alias><![CDATA[OCL451]]></alias>
+         <position><ra unit="rad">1.53722056</ra><dec unit="rad">0.56815800</dec></position>
+         <constellation><![CDATA[Aur]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+8": very large, very rich cluster, over 150 stars, rich in mag 10-13 stars. A 
+reddish star is near the center. Best of the three bright Messier open clusters 
+in Auriga and one of the top open clusters in the sky.
+]]></notes>
+         <smallDiameter unit="arcmin">24.00</smallDiameter>
+         <largeDiameter unit="arcmin">24.00</largeDiameter>
+         <visMag>5.6</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.2</surfBr>
+         <class><![CDATA[II1r]]></class>
+      </target>
+      <target id="_198664" xsi:type="oal:deepSkyOC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2281]]></name>
+         <alias><![CDATA[OCL446]]></alias>
+         <position><ra unit="rad">1.78153000</ra><dec unit="rad">0.71696200</dec></position>
+         <constellation><![CDATA[Aur]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (3/13/04): ~75 stars in a 30' region to the south of mag 7.3 HD 49009. A 
+number of stars are arranged in a looping chain. There is a neat kite-shaped 
+group of 6 stars (including two pairs at 10" and 15") in the middle of the chain 
+with a faint star in the center. Scattered stars extend to the south, beyond the 
+kite. The group is fairly bright and distinctive and includes a number of mag 
+9-10 stars, although there are no dense subgroups.
+13.1": ~40 stars mag 7-13 in cluster, bright, loose. Five double stars are 
+visible including a mag 9.5-11.0 pair at 11" and a mag 11.0-11.5 pair at 15".
+The NGC, Lynga and RNGC position is 1.0 tmin following the center of the cluster 
+(defined by Skiff as the center of the bright trapezium)
+]]></notes>
+         <smallDiameter unit="arcmin">25.00</smallDiameter>
+         <largeDiameter unit="arcmin">25.00</largeDiameter>
+         <visMag>5.4</visMag>
+         <surfBr unit="mags-per-squarearcmin">12.1</surfBr>
+         <class><![CDATA[I3p]]></class>
+      </target>
+      <target id="_208693" xsi:type="oal:deepSkyOC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC1931]]></name>
+         <alias><![CDATA[LBN810]]></alias><alias><![CDATA[OCL441]]></alias>
+         <position><ra unit="rad">1.44613000</ra><dec unit="rad">0.59768800</dec></position>
+         <constellation><![CDATA[Aur]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (1/20/07): bright, high surface brightness nebula, ~2'x1.5', surrounds six 
+stars including two mag 11/12 stars, a mag 13 star and three fainter stars. The 
+central 4 stars = ADS 4112 (one difficult in fairly poor seeing) form a small 
+trapezium asterism. Best view is unfiltered.
+17.5" (2/8/86): five stars including ADS 4112 (mag 11.5/12.3/13 at 8" and 10") 
+are located within a bright, small nebulosity of high surface brightness. A 
+sixth very faint star is just outside the nebula. Dims with OIII filter so this 
+nebula must have a predominant reflection component.
+13" (11/5/83): five stars involved including three close fairly bright stars. A 
+fourth very faint star to the west, fifth very faint star NE and sixth extremely 
+faint star west. This is a bright, high surface brightness nebulosity.
+8" (11/8/80): compact, striking nebulosity involving several stars.
+]]></notes>
+         <smallDiameter unit="arcmin">6.00</smallDiameter>
+         <largeDiameter unit="arcmin">6.00</largeDiameter>
+         <visMag>10.1</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.7</surfBr>
+         <class><![CDATA[OCL+EN]]></class>
+      </target>
+      <target id="_154987" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC7009]]></name>
+         <alias><![CDATA[PK37-34.1]]></alias>
+         <position><ra unit="rad">5.51603000</ra><dec unit="rad">-0.19832300</dec></position>
+         <constellation><![CDATA[Aqr]]></constellation>
+         <notes><![CDATA[Saturn nebula
+
+Notes by Steve Gottlieb:
+18" (7/28/03): Viewed at 1087x in very good seeing. The 30" brighter inner oval 
+is elongated WSW-ENE and has a noticeable irregular surface brightness (first 
+time this was noted) with a brighter, thick rim and darker center (partially 
+annular). Surrounding the high surface oval is a fainter, outer shell although 
+interestingly, the transition appeared more gradual than at lower power. The 
+ansae were easily visible with very small knots marking the ends of the ansae at 
+times.
+17.5" (8/10/91): extremely bright, fairly small, very high surface brightness, 
+blue-green color, about 30" diameter to the main oval body. At 412x, the two 
+famous ansae are easily visible extending WSW-ENE from the oval disc using 
+direct vision. The western extension is brighter and a very small knot is 
+visible at moments with concentration at the tip of the west extension. A faint 
+outer shell surrounds the bright disc. Numerous additional observations made 
+since 9/14/85.
+13" (9/3/83): similar view to 17.5", but the eastern extension is more difficult 
+to view.
+8" (10/13/81): bright, small, blue-green, high surface brighTness. Rays or ansae 
+suspected, particularly on the western side in excellent seeing at 200x.
+]]></notes>
+         <smallDiameter unit="arcmin">0.58</smallDiameter>
+         <largeDiameter unit="arcmin">0.58</largeDiameter>
+         <visMag>8.0</visMag>
+         <surfBr unit="mags-per-squarearcmin">6.5</surfBr>
+         <magStar>11.0</magStar>
+      </target>
+      <target id="_155167" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC6543]]></name>
+         <alias><![CDATA[7ZW759]]></alias><alias><![CDATA[PK96+29.1]]></alias>
+         <position><ra unit="rad">4.70609000</ra><dec unit="rad">1.16298000</dec></position>
+         <constellation><![CDATA[Dra]]></constellation>
+         <notes><![CDATA[Cat eye nebula
+
+Notes by Steve Gottlieb:
+18" (7/21/04): at 435x, it was fairly clear that there were two shells in the 
+main body which were of different sizes and orientations creating a complex 
+appearance. Surrounding the high surface brightness main body was a thin, very 
+faint outer envelope (inner portion of the outer envelope). The central star was 
+visible continuously. 
+18" (6/21/03): remarkable view at 538x. The central star shines steadily in the 
+center of what appears to be two superimposed shells, offset in orientation by 
+~90 degrees. Interior filamentary or arc-like structure was highly suspected.
+17.5" (6/11/88): viewed at 280x and 412x; the Cat's Eye nebula appears very 
+bright, fairly small, oval SW-NE, blue-green color. Appears darker (annular) 
+surrounding the mag 11 central star. The prominent visual portion is surrounded 
+by a very faint oval outer envelope (386") which was not seen but includes the 
+bright irregular knot IC 4677 1.7' west of center. N6552 is located 10' 
+following.
+IC 4677 was suspected at 220x without filtration close to a mag 15 star located 
+1' W of the planetary. Using a UHC filter, IC 4677 was clearly visible with 
+averted vision as a very faint elongated patch, ~25"x15" oriented SW-NE. 
+Requires averted for a good view but could hold steadily almost continuously. It 
+was also visible at 140x with an OIII filter and 280x with the UHC, but 220x 
+provided the best view.
+13" (7/27/84): at 400x appears very bright, oval N-S, blue color, central star 
+visible with averted. 
+8": bright, elongated, blue, high surface brightness.
+]]></notes>
+         <smallDiameter unit="arcmin">0.33</smallDiameter>
+         <largeDiameter unit="arcmin">0.33</largeDiameter>
+         <visMag>8.1</visMag>
+         <surfBr unit="mags-per-squarearcmin">5.4</surfBr>
+         <magStar>11.0</magStar>
+      </target>
+      <target id="_155206" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC246]]></name>
+         <alias><![CDATA[PK118-74.1]]></alias>
+         <position><ra unit="rad">0.20531600</ra><dec unit="rad">-0.20719500</dec></position>
+         <constellation><![CDATA[Cet]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (10/13/07): visible unfiltered at 25x in the 80mm finder. Nice contrast gain 
+using the NPB filter and the planetary also appears to increase in size. 
+In the 18" I had an excellent view at 175x using the NPB filter and the thin, 
+bright irregular rim (only dimming on the east side) and darker center was quite 
+striking.
+33" (9/16/07): gorgeous annular planetary viewed at 200x. The thin brighter rim 
+was striking and varied in brightness and thickness around the periphery. The 
+rim is brightest along the western or WNW edge and weakest on the east side. The 
+interior was darker but irregular in surface brightness.
+18" (8/23/03): I took a quick look at 160x from Chew's Ridge with a thin waning 
+crescent low in the ENE. Without a filter I don't remember the brighter rim 
+being so crisply defined and the annularity so clear. The superimposed stars 
+gave the planetary a transparent, 3-dimensional feel as if I was looking into 
+the object. 
+17.5" (1/8/00): at 100x, appears as a moderately bright, 3.5' irregular glow 
+with a darker center and encompassing four stars including the 12th magnitude 
+central star. Excellent contrast gain using an OIII filter, which sharpens up 
+the edge of the roundish annulus and enhances the irregular surface brightness. 
+The halo is brightest along a 270¡ arc running from SW to NE and is clearly 
+weakest at the E edge of the halo. A mag 11.5 star is embedded at the NW edge of 
+the halo 2.0' from center. The irregular central hole is much darker but faintly 
+luminous. Also superimposed is a mag 12 star SW of the central star and a 4th 
+star is just inside the eastern boundary. The central star forms a thin right 
+triangle with the other two brighter stars. At 220x, the western 90¡ outer arc 
+is brightest and there appears to be a knot embedded at the NE edge of the halo.
+17.5" (9/19/87): fairly bright, large, 4' diameter, annular. Four stars are 
+involved including the central star. This planetary has an irregular surface 
+brightness with subtle structure. 
+13" (11/05/83): fairly bright with filter, clearly annular, sharper edges. NGC 
+255 lies 15' SSE. 
+8": fairly faint, large, four stars involved. No annularity noted.
+16x80 (8/24/84): faintly visible in finder.
+The sign of the declination is incorrectly listed as positive in the RNGC. NGC 
+position is correct.
+]]></notes>
+         <smallDiameter unit="arcmin">4.08</smallDiameter>
+         <largeDiameter unit="arcmin">4.08</largeDiameter>
+         <visMag>10.9</visMag>
+         <surfBr unit="mags-per-squarearcmin">13.7</surfBr>
+         <magStar>11.0</magStar>
+      </target>
+      <target id="_155239" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC1501]]></name>
+         <alias><![CDATA[PK144+6.1]]></alias>
+         <position><ra unit="rad">1.07770000</ra><dec unit="rad">1.06328000</dec></position>
+         <constellation><![CDATA[Cam]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (11/7/07): superb view at 450x in good seeing. The 1' diameter disc is 
+slightly elongated ~E-W, ~60"x50" with a very narrow, brighter rim and darker 
+center. The mag 14.4 central star was steadily visible. On closer inspection the 
+thin rim was clearly irregular in surface brightness and slightly brighter along 
+the SW and NE sides with a couple of tiny knots embedded in the rim. The 
+slightly darker interior was weakly mottled or patchy with subtle variations in 
+surface brightness.
+17.5" (1/8/00): at 100x, this moderately bright PN was irregularly round, 1' 
+diameter, weakly annular with a faint glimpse of the central star. There was a 
+good contrast gain with the OIII filter and the image was crisp-edged, slightly 
+elongated SW-NE and the small, darker center was more evident. Excellent view at 
+220x with the faint central star (mag 14.4) clearly visible. The surface 
+brightness was irregular with an unevenly brighter outer rim. The central star 
+was visible steadily at 280x and the overall surface brightness was mottled or 
+"clumpy" (brighter on W and NE rim), darkening in the center.
+17.5" (9/14/85): bright, moderately large, almost round, 1' diameter, high 
+surface brightness. An easy mag 14.2 central star is visible. Appears darker 
+near the central star with a brighter rim. 
+13" (1/28/84): slightly annular, very faint mag 14 central star visible. 
+8": fairly faint, moderately large, bluish, slightly elongated, sharp-edged.
+]]></notes>
+         <smallDiameter unit="arcmin">0.87</smallDiameter>
+         <largeDiameter unit="arcmin">0.87</largeDiameter>
+         <visMag>11.5</visMag>
+         <surfBr unit="mags-per-squarearcmin">10.9</surfBr>
+         <magStar>14.0</magStar>
+      </target>
+      <target id="_155308" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2346]]></name>
+         <alias><![CDATA[PK215+3.1]]></alias>
+         <position><ra unit="rad">1.87350000</ra><dec unit="rad">-0.01406930</dec></position>
+         <constellation><![CDATA[Mon]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+17.5" (2/2/02): easily picked up at 100x as a fairly small, round halo 
+surrounding a bright mag 11.5 star. Nice view at 280x and 380x. The halo is 
+irregularly round, ~50"x45" with a slightly uneven surface brightness and it 
+appears a bit thinner or pinched on the NW side. Modest contrast gain with a UHC 
+filter at 100x-280x, although this object does not require a filter.
+13" (1/11/86): bright mag 11.5 central star surrounded by fairly small, round 
+disc. Located between two mag 13 stars 0.8' E and 1.2' W. View enhanced with 
+Daystar 300 filter. Central star is the variable V651 Mon (mag 11.3-13.5).
+]]></notes>
+         <smallDiameter unit="arcmin">0.87</smallDiameter>
+         <largeDiameter unit="arcmin">0.87</largeDiameter>
+         <visMag>11.6</visMag>
+         <surfBr unit="mags-per-squarearcmin">11.0</surfBr>
+         <magStar>11.0</magStar>
+      </target>
+      <target id="_155328" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC2438]]></name>
+         <alias><![CDATA[PK231+4.2]]></alias>
+         <position><ra unit="rad">2.01517000</ra><dec unit="rad">-0.25716900</dec></position>
+         <constellation><![CDATA[Pup]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (2/24/06): beautiful view of this 70" planetary within M46 at 323x. The 
+annulus is quite prominent and relatively thick with a weakly glowing interior. 
+The rim is irregularly lit and a bit weaker on the NW side and brighter along 
+the eastern edge. A mag 12.8 star is just NW of the center of the annulus (this 
+is not the central star, though) and a fainter interior star (mag 14?) on the SW 
+side (half-way to the rim) was also visible. A mag 11 star is just off the SE 
+edge. At 807x, the rim is noticeably brighter and thicker on the eastern half 
+compared to a weaker section along the NW side and an extremely faint star 
+intermittently pops out on the NNE side on inner edge of the annulus (confirmed 
+on 3/4/08 at Lake Sonoma).
+17.5" (3/2/02): at 280x this is a beautiful, 1' diameter PN with a darker 
+central hole at 280x situated on the NE side of the rich oc M46. A mag 13 star 
+(not the central star) is within the central hole slightly offset NW of center. 
+The rim is fairly uniform but slightly brighter along the NE side. The 20" 
+central hole is clearly darker although there is not a dramatic contrast. A 
+brighter mag 11 star is just off the SE edge (about 15"-20" SW of the mag 11 
+star a faint mag 14-15 star was also intermittently visible) and a string of 
+faint stars oriented WNW-ESE is just over 1' S. M 1-18 is located 22' NNE of 
+N2438.
+13.1" (1/18/85): star near center very easy and second interior star definite.
+13.1" (1/28/84): annular planetary on the NE side of M46! Fairly bright, 
+moderately large, round, 1.0' diameter. A mag 11 star is just off the SE edge 
+and a mag 13 star is just NW of the geometric center (this is not the central 
+star). A third extremely faint star lies on the SW side.
+13.1" (11/5/83): clearly annular at 166x.
+8" (1/1/84): slightly darker center, fairly small, round.
+]]></notes>
+         <smallDiameter unit="arcmin">1.27</smallDiameter>
+         <largeDiameter unit="arcmin">1.27</largeDiameter>
+         <visMag>10.8</visMag>
+         <surfBr unit="mags-per-squarearcsec">20.0</surfBr>
+         <magStar>17.0</magStar>
+      </target>
+      <target id="_220624" xsi:type="oal:deepSkyQS">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[3C273]]></name>
+         <position><ra unit="rad">3.26860899</ra><dec unit="rad">0.03581707</dec></position>
+         <constellation><![CDATA[Vir]]></constellation>
+         <notes><![CDATA[m=12.1 - 13.1; z=0.158 (584 Mpc)]]></notes>
+         <visMag>12.1</visMag>
+      </target>
+      <target id="_155092" xsi:type="oal:deepSkyPN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M57]]></name>
+         <alias><![CDATA[ARO9]]></alias><alias><![CDATA[NGC6720]]></alias><alias><![CDATA[PK63+13.1]]></alias><alias><![CDATA[RINGNEBULA]]></alias><alias><![CDATA[VV214]]></alias><alias><![CDATA[VV'466]]></alias>
+         <position><ra unit="rad">4.94623997</ra><dec unit="rad">0.57644488</dec></position>
+         <constellation><![CDATA[Lyr]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+18" (6/21/03): I took a look at the Ring Nebula at very high powers in steady 
+seeing for the first time using the Starmaster (Zambuto optics). With the 2.5x 
+Powermate, I used 538x, 807x and finally 1087x! At 538x and 807x, the mag 15.7 
+central star flicked on and off several times, but only momentarily. At 1087x, 
+the central star was visible more consistently, flickering on/off regularly and 
+cleanly visible for a few seconds at a stretch.
+17.5" (6/5/99): Viewed under very steady seeing at 380x. The halo is elongated 
+4:3 WSW-ENE and clearly brighter along the north and south sides (minor axis). 
+The ends of the major axis are clearly "thinner" and slightly fainter at the 
+following end. The interior has a pale gauzy appearance. The edge of the ring 
+has a "wooly" appearance with a strong impression of small irregular wisps or 
+filaments hinting at the extremely faint outer halo. The central star popped in 
+and out of view a few times. A mag 13 star is close off the east side and a very 
+faint mag 15.7 star is a similar distance off the west end. Another mag 15.6 
+star is 1' due south of center. At high power a 3" pair of mag 14-15 stars ~1.3' 
+NNW of center are just resolved with a difficult mag 16.1 star ~30" further 
+north. On 8/6/02 did not see the mag 16.6 star on the visual sequence chart.
+17.5" (7/1/89): extremely faint central star visible for moments at 412x just E 
+of center. The central star was held steadily for a few seconds at best with 
+averted vision. Forms an unusual pair with the extremely faint galaxy IC 1296 4' 
+NW.
+13": very bright, moderately large, slightly elongated WSW-ENE, high surface 
+brightness, best example of annularity although interior not dark. Slightly 
+fainter at ends of major axis. Central star not seen.
+6" (7/78): first view in a dark sky (Bryce Canyon), high surface brightness, 
+ring-shape obvious, easily takes high power, slightly elongated. Visible in 8x50 
+finder as a faint "star".
+
+
+
+
+Notes by Steve Gottlieb:
+18" (6/21/03): I took a look at the Ring Nebula at very high powers in steady 
+seeing for the first time using the Starmaster (Zambuto optics). With the 2.5x 
+Powermate, I used 538x, 807x and finally 1087x! At 538x and 807x, the mag 15.7 
+central star flicked on and off several times, but only momentarily. At 1087x, 
+the central star was visible more consistently, flickering on/off regularly and 
+cleanly visible for a few seconds at a stretch.
+17.5" (6/5/99): Viewed under very steady seeing at 380x. The halo is elongated 
+4:3 WSW-ENE and clearly brighter along the north and south sides (minor axis). 
+The ends of the major axis are clearly "thinner" and slightly fainter at the 
+following end. The interior has a pale gauzy appearance. The edge of the ring 
+has a "wooly" appearance with a strong impression of small irregular wisps or 
+filaments hinting at the extremely faint outer halo. The central star popped in 
+and out of view a few times. A mag 13 star is close off the east side and a very 
+faint mag 15.7 star is a similar distance off the west end. Another mag 15.6 
+star is 1' due south of center. At high power a 3" pair of mag 14-15 stars ~1.3' 
+NNW of center are just resolved with a difficult mag 16.1 star ~30" further 
+north. On 8/6/02 did not see the mag 16.6 star on the visual sequence chart.
+17.5" (7/1/89): extremely faint central star visible for moments at 412x just E 
+of center. The central star was held steadily for a few seconds at best with 
+averted vision. Forms an unusual pair with the extremely faint galaxy IC 1296 4' 
+NW.
+13": very bright, moderately large, slightly elongated WSW-ENE, high surface 
+brightness, best example of annularity although interior not dark. Slightly 
+fainter at ends of major axis. Central star not seen.
+6" (7/78): first view in a dark sky (Bryce Canyon), high surface brightness, 
+ring-shape obvious, easily takes high power, slightly elongated. Visible in 8x50 
+finder as a faint "star".
+
+
+
+
+Notes by Steve Gottlieb:
+18" (6/21/03): I took a look at the Ring Nebula at very high powers in steady 
+seeing for the first time using the Starmaster (Zambuto optics). With the 2.5x 
+Powermate, I used 538x, 807x and finally 1087x! At 538x and 807x, the mag 15.7 
+central star flicked on and off several times, but only momentarily. At 1087x, 
+the central star was visible more consistently, flickering on/off regularly and 
+cleanly visible for a few seconds at a stretch.
+17.5" (6/5/99): Viewed under very steady seeing at 380x. The halo is elongated 
+4:3 WSW-ENE and clearly brighter along the north and south sides (minor axis). 
+The ends of the major axis are clearly "thinner" and slightly fainter at the 
+following end. The interior has a pale gauzy appearance. The edge of the ring 
+has a "wooly" appearance with a strong impression of small irregular wisps or 
+filaments hinting at the extremely faint outer halo. The central star popped in 
+and out of view a few times. A mag 13 star is close off the east side and a very 
+faint mag 15.7 star is a similar distance off the west end. Another mag 15.6 
+star is 1' due south of center. At high power a 3" pair of mag 14-15 stars ~1.3' 
+NNW of center are just resolved with a difficult mag 16.1 star ~30" further 
+north. On 8/6/02 did not see the mag 16.6 star on the visual sequence chart.
+17.5" (7/1/89): extremely faint central star visible for moments at 412x just E 
+of center. The central star was held steadily for a few seconds at best with 
+averted vision. Forms an unusual pair with the extremely faint galaxy IC 1296 4' 
+NW.
+13": very bright, moderately large, slightly elongated WSW-ENE, high surface 
+brightness, best example of annularity although interior not dark. Slightly 
+fainter at ends of major axis. Central star not seen.
+6" (7/78): first view in a dark sky (Bryce Canyon), high surface brightness, 
+ring-shape obvious, easily takes high power, slightly elongated. Visible in 8x50 
+finder as a faint "star".
+
+
+
+
+Notes by Steve Gottlieb:
+18" (6/21/03): I took a look at the Ring Nebula at very high powers in steady 
+seeing for the first time using the Starmaster (Zambuto optics). With the 2.5x 
+Powermate, I used 538x, 807x and finally 1087x! At 538x and 807x, the mag 15.7 
+central star flicked on and off several times, but only momentarily. At 1087x, 
+the central star was visible more consistently, flickering on/off regularly and 
+cleanly visible for a few seconds at a stretch.
+17.5" (6/5/99): Viewed under very steady seeing at 380x. The halo is elongated 
+4:3 WSW-ENE and clearly brighter along the north and south sides (minor axis). 
+The ends of the major axis are clearly "thinner" and slightly fainter at the 
+following end. The interior has a pale gauzy appearance. The edge of the ring 
+has a "wooly" appearance with a strong impression of small irregular wisps or 
+filaments hinting at the extremely faint outer halo. The central star popped in 
+and out of view a few times. A mag 13 star is close off the east side and a very 
+faint mag 15.7 star is a similar distance off the west end. Another mag 15.6 
+star is 1' due south of center. At high power a 3" pair of mag 14-15 stars ~1.3' 
+NNW of center are just resolved with a difficult mag 16.1 star ~30" further 
+north. On 8/6/02 did not see the mag 16.6 star on the visual sequence chart.
+17.5" (7/1/89): extremely faint central star visible for moments at 412x just E 
+of center. The central star was held steadily for a few seconds at best with 
+averted vision. Forms an unusual pair with the extremely faint galaxy IC 1296 4' 
+NW.
+13": very bright, moderately large, slightly elongated WSW-ENE, high surface 
+brightness, best example of annularity although interior not dark. Slightly 
+fainter at ends of major axis. Central star not seen.
+6" (7/78): first view in a dark sky (Bryce Canyon), high surface brightness, 
+ring-shape obvious, easily takes high power, slightly elongated. Visible in 8x50 
+finder as a faint "star".
+
+
+]]></notes>
+         <smallDiameter unit="arcmin">1.27</smallDiameter>
+         <largeDiameter unit="arcmin">1.27</largeDiameter>
+         <visMag>9.0</visMag>
+         <surfBr unit="mags-per-squarearcmin">9.3</surfBr>
+         <magStar>15.3</magStar>
+      </target>
+      <target id="_203109" xsi:type="oal:deepSkyOC">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[M11]]></name>
+         <alias><![CDATA[NGC6705]]></alias><alias><![CDATA[OCL76]]></alias><alias><![CDATA[WILDDUCKCLUSTER]]></alias>
+         <position><ra unit="rad">4.93535479</ra><dec unit="rad">-0.10937397</dec></position>
+         <constellation><![CDATA[Sct]]></constellation>
+         <notes><![CDATA[Notes by Steve Gottlieb:
+13.1" (7/16/82): at 140x, several hundred stars mag 11-15 and a brighter mag 8 
+star (SAO 142695) in a 10' region form a remarkably rich cluster including some 
+dense knots of stars. A starless vacuity is visible just W of center at medium 
+power. Dark lanes appear to wind through the cluster at high power grouping the 
+stars into chains. Several dark nebula are near including B108, B112, B318. 
+8": this is the most impressive open cluster with this aperture. Appears as an 
+extremely rich carpet of faint stars and dense clumps in an arrowhead shape.
+]]></notes>
+         <smallDiameter unit="arcmin">14.00</smallDiameter>
+         <largeDiameter unit="arcmin">14.00</largeDiameter>
+         <visMag>5.8</visMag>
+         <surfBr unit="mags-per-squarearcmin">11.3</surfBr>
+         <class><![CDATA[I2r]]></class>
+      </target>
+      <target id="_218654" xsi:type="oal:deepSkyDS">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[29 CYG]]></name>
+         <alias><![CDATA[29CYG]]></alias>
+         <position><ra unit="rad">5.29925594</ra><dec unit="rad">0.64228116</dec></position>
+         <constellation><![CDATA[Cyg]]></constellation>
+         <notes><![CDATA[29 CYG
+
+29 CYG
+
+AB: 5mag / 6.6mag; 212.4" (PA=153°)
+
+AC: 5mag / 10mag; 221.7" (PA=23°)
+
+AP: 5mag / 12.2mag; 36.9" (PA=333°)
+
+BD: 6.6mag / 10.2mag; 217.4" (PA=120°)]]></notes>
+         <visMag>5.0</visMag>
+         <separation unit="arcsec">212.40</separation>
+         <pa>153</pa>
+         <magComp>6.6</magComp>
+      </target>
+      <target id="_243045" xsi:type="oal:starTargetType">
+         <datasource>TheSky6</datasource>
+         <name><![CDATA[EPS2_LYR]]></name>
+         <alias><![CDATA[B+393510]]></alias><alias><![CDATA[GSC3122:3439]]></alias><alias><![CDATA[HIP91926]]></alias><alias><![CDATA[SAO67315]]></alias>
+         <position><ra unit="rad">4.90612053</ra><dec unit="rad">0.69138309</dec></position>
+         <constellation><![CDATA[Lyr]]></constellation>
+         <apparentMag>4.6</apparentMag>
+		 <classification>A8Vn</classification>
+      </target>
+      <target id="_243046" xsi:type="oal:starTargetType">
+         <datasource>TheSky6</datasource>
+         <name><![CDATA[EPS1_LYR]]></name>
+         <alias><![CDATA[B+393509]]></alias><alias><![CDATA[GSC3122:3438]]></alias><alias><![CDATA[HD173582]]></alias><alias><![CDATA[HIP91919]]></alias><alias><![CDATA[SAO67309]]></alias>
+         <position><ra unit="rad">4.90568420</ra><dec unit="rad">0.69237211</dec></position>
+         <constellation><![CDATA[Lyr]]></constellation>
+         <apparentMag>4.7</apparentMag>
+		 <classification>F1V</classification>
+      </target>
+      <target id="_243047" xsi:type="oal:starTargetType">
+         <datasource>usr_300132</datasource>
+         <name><![CDATA[EPS3_LYR]]></name>
+		 <notes><![CDATA[No real object, but "multiple star" type requires at least three components :-)]]></notes>
+      </target>
+      <target id="_243048" xsi:type="oal:deepSkyMS">
+         <datasource>TheSky6</datasource>
+         <name><![CDATA[EPSILON_LYRAE]]></name>
+         <position><ra unit="rad">4.90568420</ra><dec unit="rad">0.69237211</dec></position>
+         <constellation><![CDATA[Lyr]]></constellation>
+		 <component>_243045</component>
+		 <component>_243046</component>
+		 <component>_243047</component>
+      </target>
+      <target id="_208926" xsi:type="oal:deepSkyGN">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[NGC7000]]></name>
+         <alias><![CDATA[LBN373]]></alias>
+         <position><ra unit="rad">5.49473000</ra><dec unit="rad">0.77696200</dec></position>
+         <constellation><![CDATA[Cyg]]></constellation>
+         <notes><![CDATA[North America nebula
+
+Notes by Steve Gottlieb:
+18" (7/16/07): superb view of the entire North American nebula in the 80mm 
+finder at 12.5x and at 73x in the 18-inch with UHC filters in both. The entire 
+outline of the U.S., Mexico and Central America was well defined and very high 
+contrast with the surrounding dark fields particularly around the Gulf of Mexico 
+region and the West Coast. A 7th magnitude star is at the edge of the center of 
+the gulf (Texas area) and another 7th magnitude star is at the south tip of 
+Florida. The "Baja peninsula" and Central American extension jut out very 
+prominently from the gulf region. The edge of the northern Canadian region is 
+less well defined. Open cluster N6997 was very prominent on the East Coast (west 
+side of the nebula). It was breathtaking to scan around the entire outline, 
+though it overfilled the 67' field.
+17.5" (7/17/93): at 100x and OIII filter appears very bright, extremely large 
+(fills several fields), amazingly high contrast around the "Gulf" of Mexico and 
+"Baja" region and to a lesser extent along the W and E coasts. Can trace around 
+the entire border except for the "Canada" region which consists mostly of 
+scattered star fields with weak nebulosity. The open cluster N6997 is easily 
+picked out in the NE section.
+8": bright, very large, sharp border and details around the "Gulf" section, 
+"Southwest border" and "Baja region". Rich with faint stars. Viewed with Rich 
+field adapter at 33x-50x. Easy naked-eye in dark sky.
+80mm (8/23/84): striking contrast at 16x using a filter at Mt. Rose.
+80mm (5/26/84): bright with a well-dfined "Gulf" region at 13x using a 
+narrowband filter.
+]]></notes>
+         <smallDiameter unit="arcmin">100.00</smallDiameter>
+         <largeDiameter unit="arcmin">120.00</largeDiameter>
+      </target>
+      <target id="_6" xsi:type="oal:PlanetTargetType">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[Jupiter]]></name>
+         <alias><![CDATA[JUPITER]]></alias>
+      </target>
+      <target id="_5" xsi:type="oal:PlanetTargetType">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[Mars]]></name>
+         <alias><![CDATA[MARS]]></alias>
+      </target>
+      <target id="_10" xsi:type="oal:MinorPlanetTargetType">
+         <datasource><![CDATA[E&T]]></datasource>
+         <name><![CDATA[Pluto]]></name>
+         <alias><![CDATA[PLUTO]]></alias>
+      </target>
+      <target id="_220838" xsi:type="oal:CometTargetType">
+         <datasource>usr_300132</datasource>
+         <name><![CDATA[177P/Barnard]]></name>
+         <alias><![CDATA[177P/BARNARD]]></alias>
+         <notes><![CDATA[Der Komet wurde von Edward Emerson Barnard entdeckt.
+
+Die Wiederentdeckung nach 117 Jahren gelang kürzlich.]]></notes>
+      </target>
+      <target id="_220836" xsi:type="oal:deepSkyNA">
+         <datasource>usr_301054</datasource>
+         <name><![CDATA[TRITON]]></name>
+         <position><ra unit="rad">0.00000000</ra><dec unit="rad">0.00000000</dec></position>
+         <constellation><![CDATA[Psc]]></constellation>
+      </target>
+   </targets>
+   <scopes>
+      <scope id="opt_10" xsi:type="oal:scopeType">
+         <model><![CDATA[ICS 14,5" f/5.5]]></model>
+         <type><![CDATA[N]]></type>
+		 <vendor><![CDATA[Intercon Spacetec]]></vendor>
+         <aperture>368.0</aperture>
+         <lightGrasp>0.8500</lightGrasp>
+         <orientation erect="false" truesided="false"/>
+         <focalLength>2038.0</focalLength>
+      </scope>
+      <scope id="opt_300963" xsi:type="oal:scopeType">
+         <model><![CDATA[ED80 pro]]></model>
+         <type><![CDATA[R]]></type>
+		 <vendor><![CDATA[Skywatcher]]></vendor>
+         <aperture>80.0</aperture>
+         <lightGrasp>0.9500</lightGrasp>
+         <orientation erect="true" truesided="false"/>
+         <focalLength>600.0</focalLength>
+      </scope>
+      <scope id="opt_302086" xsi:type="oal:fixedMagnificationOpticsType">
+         <model><![CDATA[Fujinon 8*42 HCF]]></model>
+         <type><![CDATA[B]]></type>
+         <aperture>42.0</aperture>
+         <lightGrasp>0.9500</lightGrasp>
+         <orientation erect="true" truesided="true"/>
+         <magnification>8</magnification><trueField unit="deg">7.50</trueField>
+      </scope>
+      <scope id="opt_300063" xsi:type="oal:scopeType">
+         <model><![CDATA[Astroscan]]></model>
+         <type><![CDATA[N]]></type>
+		 <vendor><![CDATA[Edmund Scientific]]></vendor>
+         <aperture>105.0</aperture>
+         <lightGrasp>0.8500</lightGrasp>
+         <orientation erect="false" truesided="false"/>
+         <focalLength>440.0</focalLength>
+      </scope>
+      <scope id="opt_301140" xsi:type="oal:fixedMagnificationOpticsType">
+         <model><![CDATA[(freies Auge)]]></model>
+         <aperture>6.0</aperture>
+         <lightGrasp>1.0000</lightGrasp>
+         <orientation erect="true" truesided="true"/>
+         <magnification>1</magnification><trueField unit="deg">10.00</trueField>
+      </scope>
+   </scopes>
+   <eyepieces>
+      <eyepiece id="ep_3">
+         <model><![CDATA[Panoptic 35 mm]]></model>
+		 <vendor><![CDATA[TeleVue]]></vendor>
+         <focalLength>35.0</focalLength>
+         <apparentFOV unit="deg">65.0</apparentFOV>
+      </eyepiece>
+      <eyepiece id="ep_4">
+         <model><![CDATA[RKE 28 mm]]></model>
+		 <vendor><![CDATA[Edmund Scientific]]></vendor>
+         <focalLength>28.0</focalLength>
+         <apparentFOV unit="deg">45.0</apparentFOV>
+      </eyepiece>
+      <eyepiece id="ep_7">
+         <model><![CDATA[Ultra Wide Angle 8,8 mm]]></model>
+		 <vendor><![CDATA[Meade]]></vendor>
+         <focalLength>8.8</focalLength>
+         <apparentFOV unit="deg">84.0</apparentFOV>
+      </eyepiece>
+      <eyepiece id="ep_8">
+         <model><![CDATA[Ultra Wide Angle 6,7 mm]]></model>
+		 <vendor><![CDATA[Meade]]></vendor>
+         <focalLength>6.7</focalLength>
+         <apparentFOV unit="deg">84.0</apparentFOV>
+      </eyepiece>
+      <eyepiece id="ep_9">
+         <model><![CDATA[Radian 5 mm]]></model>
+		 <vendor><![CDATA[TeleVue]]></vendor>
+         <focalLength>5.0</focalLength>
+         <apparentFOV unit="deg">65.0</apparentFOV>
+      </eyepiece>
+      <eyepiece id="ep_300145">
+         <model><![CDATA[Nagler 16mm]]></model>
+		 <vendor><![CDATA[TeleVue]]></vendor>
+         <focalLength>16.0</focalLength>
+         <apparentFOV unit="deg">84.0</apparentFOV>
+      </eyepiece>
+      <eyepiece id="ep_303448">
+         <model><![CDATA[Generic Zoom 8-24 mm]]></model>
+		 <vendor><![CDATA[ACME Optical]]></vendor>
+         <focalLength>8.0</focalLength>
+         <maxFocalLength>24.0</maxFocalLength>
+         <apparentFOV unit="deg">45.0</apparentFOV>
+      </eyepiece>
+   </eyepieces>
+   <lenses>
+      <lens id="le_301430">
+         <model><![CDATA[TV Powermate 2,5]]></model>
+		 <vendor><![CDATA[TeleVue]]></vendor>
+         <factor>2.50</factor>
+      </lens>
+   </lenses>
+   <filters>
+      <filter id="flt_301218">
+         <model><![CDATA[O-III 2"]]></model>
+		 <vendor><![CDATA[Thousand Oaks]]></vendor>
+         <type><![CDATA[O-III]]></type>
+      </filter>
+      <filter id="flt_301221">
+         <model><![CDATA[UHC]]></model>
+		 <vendor><![CDATA[Lumicon]]></vendor>
+         <type><![CDATA[narrow band]]></type>
+      </filter>
+      <filter id="flt_301219">
+         <model><![CDATA[Graufilter ND 0,6]]></model>
+         <vendor><![CDATA[TS]]></vendor>
+         <type><![CDATA[neutral]]></type>
+      </filter>
+      <filter id="flt_301234">
+         <model><![CDATA[Hellrot]]></model>
+         <vendor><![CDATA[Meade]]></vendor>
+         <type><![CDATA[color]]></type>
+         <color><![CDATA[light red]]></color>
+         <wratten><![CDATA[#23A]]></wratten>
+      </filter>
+	</filters>
+   <imagers>
+   </imagers>
+   <observation id="obs_302123">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302129</session>
+      <target>_238876</target>
+      <begin>2008-12-25T22:57:00+01:00</begin>
+      <faintestStar>5.8</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.70</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_302086</scope>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" resolved="true"><description><![CDATA[Auffällige Sternkette im Feld. Der Offene Sternhaufen NGC 1502 am unteren Ende der Kette östlich davon ist als kleiner, diffuser (nicht aufgelöster) Fleck zu erkennen.]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301316">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_203354</target>
+      <begin>2007-08-11T23:12:00+01:00</begin>
+      <faintestStar>5.8</faintestStar>
+      <seeing>2</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" resolved="true"><description><![CDATA[4 Sterne]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_300983">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_300992</session>
+      <target>_1008</target>
+      <begin>2006-07-18T23:25:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <scope>opt_300963</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>17.1</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" resolved="true"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303399">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_300157</session>
+      <target>_242862</target>
+      <begin>2005-04-02T00:50:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Coma-Haufen: im 16er Nagler alles voller Fleckchen! Mit indirektem Sehen und field sweeping sind schätzungsweise zwei Dutzend Galaxien zu erkennen.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_302126">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302129</session>
+      <target>_220644</target>
+      <begin>2008-12-25T23:46:00+01:00</begin>
+      <faintestStar>6.2</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.95</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <filter>flt_301221</filter>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Die Feldteilung in hell/dunkel wurde nach einigen Minuten immer sicherer wahrnehmbar. Der Pferdekopf ist nur als "Fehlstelle" (subjektiv recht groß) in dieser Front zu erahnen. Field sweeping / AV notwenig, alles ziemlich am Limit. In Ermangelung eines H-beta Filters habe ich einen UHC benutzt.
+
+
+
+NGC 2023 war beim Aufsuchen zur Orientierung hilfreich. Die hellen Feldsterne im 16er Nagler stören etwas, aber im 8,8er UWA war das Bild zu dunkel (keine Hell/Dunkeltrennung durch das Feld erkennbar).]]></description><rating>5</rating></result>
+   </observation>
+   <observation id="obs_302093">
+      <observer>usr_300132</observer>
+      <site>site_302088</site>
+      <session>se_302100</session>
+      <target>_220699</target>
+      <begin>2008-09-03T22:10:00+01:00</begin>
+      <faintestStar>5.5</faintestStar>
+      <scope>opt_302086</scope>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Der Dunkelnebel ist als vorhanden erkennbar, aber ohne klar definierbaren Umriss.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301135">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <target>_220705</target>
+      <begin>2006-07-28T02:03:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>4</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[mit IC 5146 am Ende]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301027">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301039</session>
+      <target>_220692</target>
+      <begin>2006-07-25T00:37:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301026">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301039</session>
+      <target>_220690</target>
+      <begin>2006-07-25T00:32:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301025">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301039</session>
+      <target>_220688</target>
+      <begin>2006-07-25T00:32:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301024">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301039</session>
+      <target>_220689</target>
+      <begin>2006-07-25T00:31:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301436">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_239930</target>
+      <begin>2008-05-04T23:10:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyDSType" lang="de" equalBrightness="true"><description></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_300152">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_300157</session>
+      <target>_213040</target>
+      <begin>2005-04-01T22:56:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyDSType" lang="de" resolved="true"><description></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301518">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301537</session>
+      <target>_203052</target>
+      <begin>2008-08-30T22:19:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.75</sky-quality>
+      <seeing>4</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Diffus, nicht aufgelöst]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301517">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301537</session>
+      <target>_202977</target>
+      <begin>2008-08-30T22:14:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <seeing>4</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Ansatzweise aufgelöst]]></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_301516">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301537</session>
+      <target>_202969</target>
+      <begin>2008-08-30T22:04:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.75</sky-quality>
+      <seeing>4</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" mottled="true"><description></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_301513">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301537</session>
+      <target>_202877</target>
+      <begin>2008-08-30T21:35:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.70</sky-quality>
+      <seeing>4</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_8</eyepiece>
+      <magnification>304.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[klein, leichte Konzentration zum Zentrum hin erkennbar. Keine Einzelsterne sichtbar.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301511">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301537</session>
+      <target>_203064</target>
+      <begin>2008-08-30T21:23:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" resolved="true"><description></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301400">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301401</session>
+      <target>_198358</target>
+      <begin>2007-09-14T01:22:00+01:00</begin>
+      <faintestStar>6.7</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_301376">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301377</session>
+      <target>_198382</target>
+      <begin>2007-09-13T02:26:00+01:00</begin>
+      <faintestStar>6.8</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <accessories><![CDATA[PM 2,5fach]]></accessories>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301358">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301359</session>
+      <target>_208672</target>
+      <begin>2007-09-11T23:38:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_300063</scope>
+      <eyepiece>ep_4</eyepiece>
+      <filter>flt_301221</filter>
+      <magnification>15.7</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[beim Drüberschwenken durch die Helligkeitszunahme zu erkennen. Keine Strukturen.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_301357">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301359</session>
+      <target>_208922</target>
+      <begin>2007-09-11T23:04:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <filter>flt_301218</filter>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_301319">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301328</session>
+      <target>_208889</target>
+      <begin>2007-09-09T22:26:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>2</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <filter>flt_301221</filter>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303312">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_200000</target>
+      <begin>2009-03-31T23:11:00+01:00</begin>
+      <faintestStar>5.7</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" mottled="true"><description><![CDATA[Deutlicher Kern mit diffuser, kleiner Scheibe.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303313">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199708</target>
+      <begin>2009-03-31T23:01:00+01:00</begin>
+      <faintestStar>5.6</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" mottled="true"><description><![CDATA[Schwach strukturiert, kleiner Kern. Direkt neben zwei eng stehenden Vordergrundsternen.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303314">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199571</target>
+      <begin>2009-03-31T22:47:00+01:00</begin>
+      <faintestStar>5.7</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Länglicher Zentralbereich. Brücke zu 3227 erkennbar.]]></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_303315">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199572</target>
+      <begin>2009-03-31T22:45:00+01:00</begin>
+      <faintestStar>5.6</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Sternförmiger Kern, im Süden davon ein diffuser Knoten. Eine Brücke zu 3226 ist erkennbar, beide Galaxien stehen sichtbar in Kontakt.]]></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_303316">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199532</target>
+      <begin>2009-03-31T22:36:00+01:00</begin>
+      <faintestStar>5.7</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" mottled="true"><description><![CDATA[Bei indirektem Seeing gemottled mit stark konzentriertem Kern.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303317">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199259</target>
+      <begin>2009-03-31T22:25:00+01:00</begin>
+      <faintestStar>5.6</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Toll! Sehr heller, kleiner Kern. Von einem diffusen Halo umgeben. Mit indirektem Sehen zeigt sich eine Andeutung des Balkens. Nach Süden verläuft ein äußert zart angedeuteter Spiralarm mit einer Verdichtung. Nach Norden hin ebenfalls eine diffuse Armstruktur. Muss bei dunklem Himmel beeindruckend aussehen!]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_303318">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199206</target>
+      <begin>2009-03-31T22:05:00+01:00</begin>
+      <faintestStar>5.6</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Kern klein und hell. Mondlicht stört sehr. Lohnt erneute Beobachtung!]]></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_303319">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199046</target>
+      <begin>2009-03-31T22:01:00+01:00</begin>
+      <faintestStar>5.6</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Elongiert 2:1, Kern etwas heller. Klein.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303320">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199198</target>
+      <begin>2009-03-31T21:42:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Klein, Zentrum etwas heller. Mit indirektem Sehen sind zwei sternförmige Kerne zu erahnen.]]></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_303321">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302179</session>
+      <target>_199044</target>
+      <begin>2009-03-31T21:33:00+01:00</begin>
+      <faintestStar>5.6</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Linsenförmiges Zentralgebiet, stark elongiert. Zu beiden Enden reicht ein schwächerer Bereich jeweils etwa einen langen Kerndurchmesser nach außen. Keine Staubstrukturen erkennbar. Am NO-Ende endet die Galaxie ein wenig jenseits eines Vordergrundsterns. Interessantes Objekt!]]></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_302159">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302167</session>
+      <target>_198664</target>
+      <begin>2008-12-28T23:56:00+01:00</begin>
+      <faintestStar>6.2</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.93</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyOCType" lang="de" resolved="true"><description></description><rating>3</rating><character>C</character></result>
+   </observation>
+   <observation id="obs_302150">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302167</session>
+      <target>_198190</target>
+      <begin>2008-12-28T21:42:00+01:00</begin>
+      <faintestStar>6.1</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.85</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyOCType" lang="de" resolved="true"><description></description><rating>4</rating><character>F</character></result>
+   </observation>
+   <observation id="obs_302149">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302167</session>
+      <target>_198494</target>
+      <begin>2008-12-28T21:37:00+01:00</begin>
+      <faintestStar>6.1</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.85</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyOCType" lang="de" resolved="true"><description></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_302143">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302145</session>
+      <target>_198081</target>
+      <begin>2008-12-26T22:59:00+01:00</begin>
+      <faintestStar>5.8</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.70</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyOCType" lang="de" resolved="true"><description></description><rating>2</rating><character>B</character></result>
+   </observation>
+   <observation id="obs_302142">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_302145</session>
+      <target>_208693</target>
+      <begin>2008-12-26T22:33:00+01:00</begin>
+      <faintestStar>5.8</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">20.70</sky-quality>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <filter>flt_301221</filter>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyOCType" lang="de" resolved="true"><description><![CDATA[wenige Sterne, einer davon von einem Nebel umgeben]]></description><rating>5</rating></result>
+   </observation>
+   <observation id="obs_301404">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301403</session>
+      <target>_154987</target>
+      <begin>2007-10-05T21:00:00+01:00</begin>
+      <faintestStar>5.9</faintestStar>
+      <seeing>2</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_9</eyepiece>
+      <magnification>407.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Bei geringer Vergrößerung vor allem beim Übergang von direktem/indirektem Sehen deutlich bläulich leuchtend. Der Nebelfleck ist im Innern nicht strukturiert. Die Nord- und Südränder haben unterschiedlichen Krümmungsradius: im N größer als im S. Die beiden "Antennen" sind klar zu erkennen, trotz der schlechten Bedingungen.]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301374">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301377</session>
+      <target>_155206</target>
+      <begin>2007-09-13T01:50:00+01:00</begin>
+      <faintestStar>6.8</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <filter>flt_301221</filter>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" mottled="true"><description><![CDATA[Nebelhülle um einige Sterne herum, ungleichmäßige Heligkeitsverteilung, dunkle Fehlstellen in der Scheibe]]></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_301318">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <session>se_301328</session>
+      <target>_155092</target>
+      <begin>2007-09-09T22:18:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>2</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_8</eyepiece>
+      <magnification>304.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[mit CS]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301217">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_301202</session>
+      <target>_155167</target>
+      <begin>2007-04-13T23:29:00+01:00</begin>
+      <faintestStar>5.9</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <accessories><![CDATA[Powermate 2,5]]></accessories>
+      <eyepiece>ep_8</eyepiece>
+      <magnification>304.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" mottled="true"><description><![CDATA[In N/S-Richtung elongiert mit extrem schwach angedeuteten "Ansen", einer Art Halo. Form erinnert an einen Donut, die Ostseite etwas heller als die Westseite.]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301175">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_155308</target>
+      <begin>2007-03-11T22:07:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <accessories><![CDATA[Powermate 2,5]]></accessories>
+      <eyepiece>ep_8</eyepiece>
+      <magnification>304.2</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[erdnussförmige Form, aber an der Grenze der Sichtbarkeit]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301170">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_155239</target>
+      <begin>2007-03-11T21:06:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Zentralstern blickweise indirekt zu sehen
+
+Nebelscheibe erscheint gleichmäßig hell]]></description><rating>1</rating></result>
+   </observation>
+   <observation id="obs_301166">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_155328</target>
+      <begin>2007-03-11T20:53:00+01:00</begin>
+      <faintestStar>6.0</faintestStar>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description></description><rating>3</rating></result>
+   </observation>
+   <observation id="obs_302191">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_220624</target>
+      <begin>2009-04-20T00:19:00+01:00</begin>
+      <faintestStar>6.2</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">21.00</sky-quality>
+      <seeing>2</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_300145</eyepiece>
+      <magnification>127.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de" stellar="true"><description></description><rating>2</rating></result>
+   </observation>
+   <observation id="obs_303450">
+      <observer>usr_300132</observer>
+      <site>site_302088</site>
+      <target>_218654</target>
+      <begin>2009-05-31T23:35:00+01:00</begin>
+      <faintestStar>5.3</faintestStar>
+      <seeing>5</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_303448</eyepiece>
+      <magnification>203.8</magnification>
+      <result xsi:type="oal:findingsDeepSkyDSType" lang="en" equalBrightness="true" niceSurrounding="true"><description><![CDATA[Sample observation with special attributes for a double star]]></description><rating>2</rating><colorMain>white</colorMain><colorCompanion>orange</colorCompanion></result>
+   </observation>
+   <observation id="obs_303449">
+      <observer>usr_300132</observer>
+      <site>site_302088</site>
+      <target>_155092</target>
+      <begin>2009-05-31T23:30:00+01:00</begin>
+      <faintestStar>4.9</faintestStar>
+      <seeing>5</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_303448</eyepiece>
+      <lens>le_301430</lens>
+      <filter>flt_301221</filter>
+      <magnification>318.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyType" lang="en"><description><![CDATA[Sample observation using a zoom eyepiece, a filter and a Barlow]]></description><smallDiameter unit="arcmin">1.00</smallDiameter><largeDiameter unit="arcmin">1.00</largeDiameter><rating>1</rating></result>
+   </observation>
+   <observation id="obs_303451">
+      <observer>usr_300132</observer>
+      <site>site_302088</site>
+      <target>_203109</target>
+      <begin>2009-05-31T23:40:00+01:00</begin>
+      <faintestStar>4.9</faintestStar>
+      <seeing>5</seeing>
+      <scope>opt_10</scope>
+	  <accessories><![CDATA[none, just a sample...]]></accessories>
+      <eyepiece>ep_300145</eyepiece>
+      <lens>le_301430</lens>
+      <magnification>318.4</magnification>
+      <result xsi:type="oal:findingsDeepSkyOCType" lang="en" resolved="true" unusualShape="true" colorContrasts="true"><description><![CDATA[Sample observation for a resolved OC with special attributes]]></description><rating>1</rating><character>C</character></result>
+   </observation>
+   <observation id="obs_303755">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_243046</target>
+      <begin>2009-05-31T23:30:00+01:00</begin>
+      <faintestStar>5.4</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">19.80</sky-quality>
+      <seeing>2</seeing>
+      <scope>opt_301140</scope>
+      <result xsi:type="oal:findingsType" lang="en"><description></description></result>
+   </observation>
+   <observation id="obs_303756">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_243045</target>
+      <begin>2009-05-31T23:30:00+01:00</begin>
+      <faintestStar>5.4</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">19.80</sky-quality>
+      <seeing>2</seeing>
+      <scope>opt_301140</scope>
+      <result xsi:type="oal:findingsType" lang="en"><description></description></result>
+   </observation>
+   <observation id="obs_303757">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_243048</target>
+      <begin>2009-05-31T23:35:00+01:00</begin>
+      <faintestStar>5.4</faintestStar>
+      <sky-quality unit="mags-per-squarearcsec">19.80</sky-quality>
+      <seeing>2</seeing>
+      <scope>opt_301140</scope>
+      <result xsi:type="oal:findingsType" lang="en"><description>PA clearly recognized with naked eye</description></result>
+   </observation>
+   <observation id="obs_300189">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <session>se_300157</session>
+      <target>_208926</target>
+      <begin>2005-04-02T01:00:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>3</seeing>
+      <result xsi:type="oal:findingsDeepSkyType" lang="de"><description><![CDATA[Zu dieser fortgeschrittenen Zeit war die Milchstraße im Osten schon ordentlich über den Horizont geklettert und zeigte das great rift und etliche Abschnitte zwischen Cas und Cyg recht deutlich.
+
+NGC 7000 war ohne Schwierigkeiten mit freiem Auge zu erkennen, was laut 'Deep Sky Reiseführer' einer Grenzgröße von 6,5mag entspricht.]]></description><rating>4</rating></result>
+   </observation>
+   <observation id="obs_301331">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <target>_5</target>
+      <begin>2007-09-10T01:11:00+01:00</begin>
+      <faintestStar>6.5</faintestStar>
+      <seeing>4</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <filter>flt_301234</filter>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsType" lang="de"><description><![CDATA[Deutliche Phae, aber mieses Seeing]]></description></result>
+   </observation>
+   <observation id="obs_301139">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <target>_220838</target>
+      <begin>2006-07-28T02:20:00+01:00</begin>
+      <faintestStar>6.4</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_3</eyepiece>
+      <magnification>58.2</magnification>
+      <result xsi:type="oal:findingsType" lang="de"><description><![CDATA[Ohne Kern, diffuse Fläche ohne Strukturen.]]></description></result>
+   </observation>
+   <observation id="obs_300972">
+      <observer>usr_300132</observer>
+      <site>site_300007</site>
+      <target>_10</target>
+      <begin>2006-07-02T01:10:00+01:00</begin>
+      <faintestStar>6.1</faintestStar>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>231.6</magnification>
+      <result xsi:type="oal:findingsType" lang="de"><description><![CDATA[kann mit indirektem Sehen gehalten werden]]></description></result>
+   </observation>
+   <observation id="obs_301092">
+      <observer>usr_300132</observer>
+      <site>site_300058</site>
+      <target>_220836</target>
+      <begin>2006-07-25T01:01:00+01:00</begin>
+      <faintestStar>6.4</faintestStar>
+      <seeing>3</seeing>
+      <scope>opt_10</scope>
+      <eyepiece>ep_7</eyepiece>
+      <magnification>304.2</magnification>
+      <result xsi:type="oal:findingsType"><description><![CDATA[Tom identifizierte Triton mit Guide 8, neben dem hellen Neptun auf "10 Uhr" leicht zu halten, 13.4 m. Meine und Toms erste Triton-Beob.!]]></description></result>
+   </observation>
+</oal:observations>

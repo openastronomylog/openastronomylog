@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema targetNamespace="http://groups.google.com/group/openastronomylog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:oal="http://groups.google.com/group/openastronomylog" version="2.1">
+	<!-- 
+	    Schema for documentation and exchange of observations of astronomical objects. 
+		 Authors: Thomas Pfleger 
+		          Dirk Lehmann
+				  Phyllis Lang
+		 Revision date: 2011/08/08 (no changes in version 2.1)
+	     (c) 2005 - 2011 by Fachgruppe Computerastronomie of the Vereinigung der Sternfreunde e.V. (VdS)
+	-->
+
+	<!-- Include the base elements -->
+	<xsd:include schemaLocation="oal_Base.xsd"/>
+
+
+	<!-- New in V2.0: type definition for multiple stars -->
+	<xsd:complexType name="deepSkyMS">
+		<xsd:complexContent>
+			<!-- pls. note that this element is not derived from oal:deepSkyTargetType -->
+			<xsd:extension base="oal:observationTargetType">
+				<xsd:sequence>
+					<!-- star which is a component of the multiple star system -->
+					<!-- refers to oal:starTargetType -->
+					<!-- Must occur at least three times. For double stars please use oal:deepSkyDS -->
+					<xsd:element name="component" type="xsd:IDREF" minOccurs="3" maxOccurs="unbounded"/>					
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+
+	<!-- abstract base type definition for DEEP SKY targets -->
+	<xsd:complexType name="deepSkyTargetType" abstract="true">
+		<xsd:complexContent>
+			<xsd:extension base="oal:observationTargetType">
+				<xsd:sequence>
+					<!-- apparent angular dimensions -->
+					<xsd:element name="smallDiameter" type="oal:nonNegativeAngleType" minOccurs="0"/>
+					<xsd:element name="largeDiameter" type="oal:nonNegativeAngleType" minOccurs="0"/>
+					<!-- Visual magnitude in [mag] -->
+					<xsd:element name="visMag" minOccurs="0">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:double"/>
+						</xsd:simpleType>
+					</xsd:element>
+					<!-- surface brightness -->
+					<!-- New in V2.0: usage of the new 'surfaceBrightnessType' type, giving the measurement unit explicitly. -->
+					<!-- In older schema versions, mags per square arcmin were used -->
+					<xsd:element name="surfBr" type="oal:surfaceBrightnessType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- deepSkyTargetType subtypes are given in alphabetical order: -->
+	
+	<!-- New in V1.7: type definition for asterisms -->
+	<xsd:complexType name="deepSkyAS">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- position angle of large axis in [deg] -->
+					<xsd:element name="pa" type="oal:positionAngleType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<!-- New in Version 2.0 -->
+	<!-- type definition for clusters of galaxies -->
+	<xsd:complexType name="deepSkyCG">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- magnitude of the 10th brightest member in [mag] -->
+					<xsd:element name="mag10" type="xsd:double" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<!-- type definition for dark nebulae -->
+	<xsd:complexType name="deepSkyDN">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- position angle of large axis in [deg] -->
+					<xsd:element name="pa" type="oal:positionAngleType" minOccurs="0"/>
+					<!-- opacity acc. to Lynds (1: min, 6:max) -->
+					<xsd:element name="opacity" minOccurs="0">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:integer">
+								<xsd:minInclusive value="1"/>
+								<xsd:maxInclusive value="6"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- type definition for double stars -->
+	<xsd:complexType name="deepSkyDS">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- separation -->
+					<xsd:element name="separation" type="oal:nonNegativeAngleType" minOccurs="0"/>
+					<!-- position angle in [deg] -->
+					<xsd:element name="pa" type="oal:positionAngleType" minOccurs="0"/>
+					<!-- magnitude of companion star in [mag] -->
+					<xsd:element name="magComp" type="xsd:double" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- type definition for globular clusters -->
+	<xsd:complexType name="deepSkyGC">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- magnitude of brightest stars in [mag] -->
+					<xsd:element name="magStars" type="xsd:double" minOccurs="0"/>
+					<!-- degree of concentration [I..XII]-->
+					<xsd:element name="conc" type="xsd:string" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- type definition for galactic nebulae -->
+	<xsd:complexType name="deepSkyGN">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- indicates emission, reflection or dark nebula -->
+					<!-- not restricted to an enum to cover exotic objects -->
+					<xsd:element name="nebulaType" type="xsd:string" minOccurs="0"/>
+					<!-- position angle of large axis in [deg] -->
+					<xsd:element name="pa" type="oal:positionAngleType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<!-- type definition for galaxies -->
+	<xsd:complexType name="deepSkyGX">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<xsd:element name="hubbleType" type="xsd:string" minOccurs="0"/>
+					<!-- position angle of large axis in [deg] -->
+					<xsd:element name="pa" type="oal:positionAngleType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<!-- type definition for uncategorized/miscellaneous targets -->
+	<xsd:complexType name="deepSkyNA">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- type definition for open clusters -->
+	<xsd:complexType name="deepSkyOC">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- number of stars -->
+					<xsd:element name="stars" type="xsd:positiveInteger" minOccurs="0"/>
+					<!-- magnitude of brightest star in [mag] -->
+					<xsd:element name="brightestStar" type="xsd:double" minOccurs="0"/>
+					<!-- classification according to Trumpler -->
+					<xsd:element name="class" type="xsd:string" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- type definition for planetary nebulae -->
+	<xsd:complexType name="deepSkyPN">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- magnitude of central star in [mag] -->
+					<xsd:element name="magStar" type="xsd:double" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- type definition for quasars -->
+	<xsd:complexType name="deepSkyQS">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType"/>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- New in V1.7: type definition for star clouds -->
+	<xsd:complexType name="deepSkySC">
+		<xsd:complexContent>
+			<xsd:extension base="oal:deepSkyTargetType">
+				<xsd:sequence>
+					<!-- position angle of large axis in [deg] -->
+					<xsd:element name="pa" type="oal:positionAngleType" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+
+	<!-- this type extension is used for  the findings of visual deep sky observations -->
+	<xsd:complexType name="findingsDeepSkyType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:findingsType">
+				<xsd:sequence>
+					<!-- estimated small diameter -->
+					<xsd:element name="smallDiameter" type="oal:nonNegativeAngleType" minOccurs="0"/>
+					<!-- estimated large diameter -->
+					<xsd:element name="largeDiameter" type="oal:nonNegativeAngleType" minOccurs="0"/>
+					<!-- rating according to the scale of the "Deep Sky Liste" -->
+					<!-- New in Version 2.0: changed to an enumeration, 99 means "unknown" -->
+					<xsd:element name="rating">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:integer">
+								<xsd:enumeration value="1"/>
+								<xsd:enumeration value="2"/>
+								<xsd:enumeration value="3"/>
+								<xsd:enumeration value="4"/>
+								<xsd:enumeration value="5"/>
+								<xsd:enumeration value="6"/>
+								<xsd:enumeration value="7"/>
+								<xsd:enumeration value="99"/>
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:element>
+				</xsd:sequence>
+				<xsd:attribute name="stellar" type="xsd:boolean" use="optional"/>
+				<xsd:attribute name="extended" type="xsd:boolean" use="optional"/>
+				<xsd:attribute name="resolved" type="xsd:boolean" use="optional"/>
+				<xsd:attribute name="mottled" type="xsd:boolean" use="optional"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- character of open clusters according to explanations/samples given in the Deep Sky Liste -->
+	<xsd:simpleType name="clusterCharacterType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="A"/>
+			<xsd:enumeration value="B"/>
+			<xsd:enumeration value="C"/>
+			<xsd:enumeration value="D"/>
+			<xsd:enumeration value="E"/>
+			<xsd:enumeration value="F"/>
+			<xsd:enumeration value="G"/>
+			<xsd:enumeration value="H"/>
+			<xsd:enumeration value="I"/>
+			<xsd:enumeration value="X"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- findings for observations of open clusters -->
+	<xsd:complexType name="findingsDeepSkyOCType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:findingsDeepSkyType">
+				<xsd:sequence>
+					<!-- character of the cluster according to "Deep Sky Liste" definition -->
+					<xsd:element name="character" type="oal:clusterCharacterType" minOccurs="0"/>
+				</xsd:sequence>
+				<xsd:attribute name="unusualShape" type="xsd:boolean" use="optional"/>
+				<xsd:attribute name="partlyUnresolved" type="xsd:boolean" use="optional"/>
+				<xsd:attribute name="colorContrasts" type="xsd:boolean" use="optional"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<!-- color recognized in double star observations -->
+	<xsd:simpleType name="starColorType">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="white"/>
+			<xsd:enumeration value="red"/>
+			<xsd:enumeration value="orange"/>
+			<xsd:enumeration value="yellow"/>
+			<xsd:enumeration value="green"/>
+			<xsd:enumeration value="blue"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<!-- findings for observations of binary stars -->
+	<xsd:complexType name="findingsDeepSkyDSType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:findingsDeepSkyType">
+				<xsd:sequence>
+					<!-- colors of main star and companion (if perceived) -->
+					<xsd:element name="colorMain" type="oal:starColorType" minOccurs="0"/>
+					<xsd:element name="colorCompanion" type="oal:starColorType" minOccurs="0"/>
+				</xsd:sequence>
+				<xsd:attribute name="equalBrightness" type="xsd:boolean" use="optional"/>
+				<xsd:attribute name="niceSurrounding" type="xsd:boolean" use="optional"/>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+</xsd:schema>

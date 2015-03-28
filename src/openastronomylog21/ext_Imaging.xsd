@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema targetNamespace="http://groups.google.com/group/openastronomylog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:oal="http://groups.google.com/group/openastronomylog" version="2.1">
+	<!-- 
+	    Schema for documentation and exchange of observations of astronomical objects. 
+		 Authors: Thomas Pfleger 
+		          Dirk Lehmann
+			      Phyllis Lang
+		 Revision date: 2011/08/08 (no changes in version 2.1)
+	     (c) 2005 - 2011 by Fachgruppe Computerastronomie of the Vereinigung der Sternfreunde e.V. (VdS) 
+	-->
+
+	<!-- Include the base elements -->
+	<xsd:include schemaLocation="oal_Base.xsd"/>
+	
+	<!--An extension of the imagerType to describe CCD cameras-->
+	<xsd:complexType name="ccdCameraType">
+		<xsd:complexContent>
+			<xsd:extension base="oal:imagerType">
+				<xsd:sequence>
+					<xsd:element name="pixelsX" type="xsd:positiveInteger"/>
+					<xsd:element name="pixelsY" type="xsd:positiveInteger"/>
+					<!-- New in V2.0: Pixel size in microns -->
+					<xsd:element name="pixelXSize" type="oal:positiveDecimal" minOccurs="0"/>
+                    <xsd:element name="pixelYSize" type="oal:positiveDecimal" minOccurs="0"/>
+                    <!-- New in V2.0: Binning (defaults to 1 x 1)--> 
+                    <xsd:element name="binning" default="1"> 
+                         <xsd:simpleType> 
+                              <xsd:restriction base="xsd:integer"> 
+                                   <xsd:minInclusive value="1"/> 
+                                   <xsd:maxInclusive value="9"/> 
+                              </xsd:restriction> 
+                         </xsd:simpleType> 
+                    </xsd:element> 
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+</xsd:schema>
