@@ -10,7 +10,7 @@
 ]>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xmlns:oal="https://github.com/openastronomylog/openastronomylog" exclude-result-prefixes="oal">
+   xmlns:oal="http://groups.google.com/group/openastronomylog" exclude-result-prefixes="oal">
 	<xsl:output method="xml" version="1.0" encoding="ISO-8859-1" indent="yes" media-type="text/xml"/>
    
 	<!-- Copy a session to the output, omitting the 'image' element(s) -->
@@ -33,9 +33,9 @@
 
    <xsl:template match="/">
       <xsl:text disable-output-escaping="yes"><![CDATA[<oal:observations version="2.0"]]></xsl:text>
-      <xsl:text disable-output-escaping="yes"><![CDATA[ xmlns:oal="https://github.com/openastronomylog/openastronomylog"]]></xsl:text>
+      <xsl:text disable-output-escaping="yes"><![CDATA[ xmlns:oal="http://groups.google.com/group/openastronomylog"]]></xsl:text>
       <xsl:text disable-output-escaping="yes"><![CDATA[ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"]]></xsl:text>
-      <xsl:text disable-output-escaping="yes"><![CDATA[ xsi:schemaLocation="https://github.com/openastronomylog/openastronomylog oal20.xsd">]]></xsl:text>&cr;
+      <xsl:text disable-output-escaping="yes"><![CDATA[ xsi:schemaLocation="http://groups.google.com/group/openastronomylog oal20.xsd">]]></xsl:text>&cr;
 
       <xsl:text disable-output-escaping="yes"><![CDATA[<observers>]]></xsl:text>&cr;
       <xsl:for-each select="//observers/observer">

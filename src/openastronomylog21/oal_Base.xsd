@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<xsd:schema targetNamespace="https://github.com/openastronomylog/openastronomylog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:oal="https://github.com/openastronomylog/openastronomylog" version="2.1">
+<xsd:schema targetNamespace="http://groups.google.com/group/openastronomylog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:oal="http://groups.google.com/group/openastronomylog" version="2.1">
 	<!-- 
 	    Schema for documentation and exchange of observations of astronomical objects. 
 		 Authors: Thomas Pfleger 
